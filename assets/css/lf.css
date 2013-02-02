@@ -1,3 +1,9 @@
+  /*!
+   * Lovell Felix
+   * Web And Mobile Application Developer
+   */
+   
+   
   /* 
       -------------------------------------------------- */
 
@@ -5,34 +11,105 @@
       body {
         height: 100%;
 		position: static !important;
-		font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+		
 		font-size: 14px;
 		line-height: 1.6;
 		color: #333;
-		background: #fff;
+		background: url(../img/grid.png) repeat center top;
+		
 		-webkit-font-smoothing: antialiased;
 		-webkit-text-size-adjust: 100%;
       }
 
-      /* Wrapper for page content to push down footer */
+
       #wrap {
         min-height: 100%;
         height: auto !important;
         height: 100%;
-        /* Negative indent footer by it's height */
         margin: 0 auto -60px;
       }
 
-      /* Set the fixed height of the footer here */
-      #push,
-      #footer {
-        height: 60px;
-      }
-      #footer {
-        background-color: #f5f5f5;
-      }
+	  #push,
+	  #footer {
+		height: 60px;
+	  }
+	  #footer {
+		background-color: #f5f5f5;
+	  
+	  }
+		.l_content {
+		padding-bottom: 9px;
+		margin: 75px 0 30px;
+		padding-top:100px;
+		}
+		
+		#landing {
+		margin-top: 15px;
+		overflow: hidden;
+		padding-left: 140px;
+		}
 
-      /* Lastly, apply responsive CSS fixes as necessary */
+		#landing div a:hover,
+		#landing div a:active {
+		border: 1px solid #e5e5e5;
+		box-shadow: inset 0 0 20px #ebebeb;
+		}
+		#landing div a {
+		background: rgb(250, 250, 250) no-repeat center;
+		border: 1px solid rgb(242, 242, 242);
+		display: block;
+		margin-bottom: 20px;
+		min-height: 78px;
+		transition: all .5s;}
+		
+		#landing div {
+		float: left;
+		margin-left: 4.1322315%;
+		margin-right: 0;
+		width: 16.666666%;
+		}
+		blockquote {
+		font-family: Georgia, serif;
+		font-size: 18px;
+		font-style: italic;
+		width: 500px;
+		margin: 0.25em 0;
+		padding: 0.25em 40px;
+		line-height: 1.45;
+		position: relative;
+		color: rgb(88, 88, 88);
+		}
+		blockquote:before {
+		display: block;
+		content: "\201C";
+		font-size: 80px;
+		position: absolute;
+		left: -20px;
+		top: -20px;
+		color: #7a7a7a;
+		}
+		blockquote cite {
+		color: #999999;
+		font-size: 14px;
+		display: block;
+		margin-top: 5px;
+		}
+		 
+		blockquote cite:before {
+		content: "\2014 \2009";
+		}
+		
+		 
+  /* Blog Addons
+      -------------------------------------------------- */
+/* Ads */
+.ad {background:#feffc3; margin:5px 0px; padding:10px 5px 1px 5px;height: 85px;border-radius: 3px;border: #E2E2E2;border: transparent;box-shadow: 0px 0px 0px 1px #D3D0D0, 0 1px 2px rgba(0, 0, 0, 0.1);}
+.ad:hover{background:#feffc3; cursor:pointer; outline:1px solid #ebebeb; -moz-outline-radius:3px; -webkit-outline-radius:3px; outline-radius:3px; -khtml-outline-radius:3px;}
+
+/*Article container */ 
+.bc {min-height: 90px;background: white;border-radius: 3px;border: 1px solid #C4CDE0;box-shadow: 0px 0px 0px 1px #E2E2E2, 0 1px 2px rgba(0, 0, 0, 0.1);margin-left: 0px;position: relative;font-size: 15px;line-height: 22px;margin-bottom: 3px;padding: 15px 3px 3px 10px;}
+.bc a{text-transform: capitalize;font-weight: bold;}
+.bc a:hover{color: #B94A48;}
       @media (max-width: 767px) {
         #footer {
           margin-left: -20px;
@@ -40,21 +117,7 @@
           padding-left: 20px;
           padding-right: 20px;
         }
-      }
-      
-      
-    .navbar .navbar-inner {
-position: relative;
-height: 50px;
-border-bottom: 1px solid #ddd;
-border-bottom-color: rgba(171, 225, 241, 0.8);
-background-color: #fff;
-background-image: url(../img/top-bar-noise.png),-webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+		
+		
 
-z-index: 100;
-}
-.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
--webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1),0 1px 10px rgba(0, 0, 0, 0.1);
--moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.1),0 1px 10px rgba(0,0,0,0.1);
-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1),0 1px 10px rgba(0, 0, 0, 0.1);
-}	  
+      

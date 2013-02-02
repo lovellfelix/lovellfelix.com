@@ -400,11 +400,10 @@ select:focus:required:invalid:focus {
   float: left;
   min-width: 160px;
   padding: 0 0 6px 0;
-  margin: 10px 0 0;
   list-style: none;
   background-color: #ffffff;
   border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(217, 241, 248, 0.8);
   *border-right-width: 2px;
   *border-bottom-width: 2px;
   -webkit-border-radius: 0;
@@ -445,11 +444,7 @@ select:focus:required:invalid:focus {
 .dropdown-submenu:hover > a {
   color: #333333;
   background-color: #eeeeee;
-  background-image: -moz-linear-gradient(top, #eeeeee, #eeeeee);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee), to(#eeeeee));
-  background-image: -webkit-linear-gradient(top, #eeeeee, #eeeeee);
-  background-image: -o-linear-gradient(top, #eeeeee, #eeeeee);
-  background-image: linear-gradient(to bottom, #eeeeee, #eeeeee);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(243, 243, 243)), to(rgb(238, 238, 238)));
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeeeeee', endColorstr='#ffeeeeee', GradientType=0);
 }
