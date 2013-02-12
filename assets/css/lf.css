@@ -43,6 +43,11 @@
 		padding-top:100px;
 		}
 		
+		.m_content {
+		padding-bottom: 9px;
+		margin: 75px 0 30px;
+		}
+		
 		#landing {
 		margin-top: 15px;
 		overflow: hidden;
@@ -99,7 +104,33 @@
 		content: "\2014 \2009";
 		}
 		
-		 
+		 hr.soften {
+			height: 1px;
+			margin: 20px 0;
+			background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1), rgba(0, 0, 0, 0));
+			border: 0;}
+		.sub_title {
+		border-bottom: 1px solid rgb(233, 233, 233);
+		height: 10px;
+		line-height: 20px;
+		text-align: left;
+		font: bold 17px arial,sans-serif;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		margin-top: 15px;
+		}
+		
+		.st {
+		background-color: rgb(255, 255, 255);
+		display: inline;
+		padding-right: 10px;
+		}
+  
+  /*Labs Addons
+  
+  -------------------------------------------------- */
+  
+  
   /* Blog Addons
       -------------------------------------------------- */
 /* Ads */
@@ -110,7 +141,12 @@
 .bc {min-height: 90px;background: white;border-radius: 3px;border: 1px solid #C4CDE0;box-shadow: 0px 0px 0px 1px #E2E2E2, 0 1px 2px rgba(0, 0, 0, 0.1);margin-left: 0px;position: relative;font-size: 15px;line-height: 22px;margin-bottom: 3px;padding: 15px 3px 3px 10px;}
 .bc a{text-transform: capitalize;font-weight: bold;}
 .bc a:hover{color: #B94A48;}
-      @media (max-width: 767px) {
+      
+	  
+	  
+	  
+	  
+	  @media (max-width: 767px) {
         #footer {
           margin-left: -20px;
           margin-right: -20px;
