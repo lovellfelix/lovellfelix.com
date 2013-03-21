@@ -341,7 +341,24 @@ div.reposidget {
     border-bottom-color: #0770a0;
 }	  
 	  
-	  
+.profile_card {
+		
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding-bottom: 0px;
+	padding-top: 15px;
+	background-color: #F5F5F5;
+	margin: 0;
+	color: #777;
+	-webkit-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-transition: opacity 0.7s ease-out 2.5s;
+	-moz-transition: opacity 0.7s ease-out 2.5s;
+	-o-transition: opacity 0.7s ease-out 2.5s;
+	transition: opacity 0.7s ease-out 2.5s;
+	-webkit-animation-fill-mode: backwards;
+}
+  
 	  @media (max-width: 767px) {
         #footer {
           margin-left: -20px;
