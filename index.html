@@ -1,133 +1,54 @@
-﻿<!doctype html>
-<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> 
-<html class="no-js" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name='description'  content='Geek, Google Fanboy, Tech News Junkie, Entrepreneur - Drinker of tea :)'>
-	<META NAME="robots" CONTENT="nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<meta name="og:title" property="og:title" content="Lovell Felix" />
-	<meta name="og:type" property="og:type" content="public_figure" />
-	<meta name="og:image" property="og:image" content="assets/img/grav.png"/>
-	<meta name="og:url" property="og:url" content="http://lovellfelix.com/" />
-	<meta name="og:site_name" property="og:site_name" content="Lovell Felix" />
-	<link rel='me' href='https://plus.google.com/102676824509364241023' />
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
-    <link href="assets/css/lf.css" rel="stylesheet">
-    <link href="assets/css/google-bootstrap.css" rel="stylesheet">
-	<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-	<link rel="shortcut icon" href="assets/img/grav.png">
-    	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<!--Google Analytics -->
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-18508266-1']);
-  _gaq.push(['_trackPageview']);
+---
+layout: base
+---
+<div class="blog-cover" style="background-image:url(/images/{{ site.inc.cover_image }});">
     
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-    <title>Lovell Felix</title>
-    </style>
-  </head>
-  <body>
-    <!-- Topbar
-    ================================================== -->
-    <div id="header" class="navbar navbar-fixed-top" data-scrollspy="scrollspy" >
-      <div class="navbar-inner">
+    <section>
         <div class="container">
-          <ul class="nav">
-           <li><a class="brand" href="/">* · Lovell Felix</a></li>                              
-          </ul>
-		  <div class="nav-collapse">
-					<ul class="nav">
-						</ul>
-						<ul class="nav pull-right">
-			<li class="dropdown">
-				<p class="dropdown-toggle navbar-text" data-toggle="dropdown" id="userDrop">
-					  <span class="icon-bar"></span><i class="icon-list"></i> More... 	
-   						<a href="#"></a>
-							<b class="caret"></b>
-				</p>
-				<ul class="dropdown-menu">
-					<li><a href="http://lovellfelix.com"><i class="icon-home"></i> home</a></li>				
-					<li><a href="http://blog.lovellfelix.com"><i class="icon-pencil"></i> blog</a></li>
-					<li><a href="http://labs.lovellfelix.com"><i class="icon-wrench"></i> labs</a></li>
-					<li><a href="http://linkedin.com/in/lovellfelix"><i class="icon-user"></i> resume</a></li>
-				</ul>
-			</li>
-		</ul></div>
+            <h1>{{ site.inc.title }}</h1>
+            {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
+        
+            {% if site.inc.twitter %}
+            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
+            {% endif %}
+            {% if site.inc.facebook %}
+            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
+            {% endif %}
+            <a href="/feed.xml" title="RSS Feed">
+                <i class="icon icon-rss"></i>
+            </a>
         </div>
-      </div>
-    </div>
-  <!-- Content
-       =============== -->  
-    <body>   
-    <div id="wrap">
- <div class="container">
-    <div class="l_content">
-	<div id="landing">
-      <div><a href="http://blog.lovellfelix.com" target="_blank" style="background:url(assets/img/blog.png) no-repeat center #fafafa"></a></div>
-      <div><a href="http://labs.lovellfelix.com" target="_blank" style="background:url(assets/img/labs.png) no-repeat center #fafafa"></a></div>
-      <div><a href="http://lovellfelix.github.com" target="_blank" style="background:url(assets/img/repo.png) no-repeat center #fafafa"></a></div>
-      <div><a href="http://feeds.lovellfelix.com" target="_blank" style="background:url(assets/img/feeds.png) no-repeat center #fafafa"></a></div>
-    </div>	 
-    </div>
-  <div class="span4 offset3">		
-  <blockquote>
-         <p>I have no special talents. I am only passionately curious." </p>
-<cite title="Albert Einstein">Albert Einstein</cite></small>
-</blockquote>
-<br />
-<div class="span4 offset2" style="padding-left:9px">
-				<br />
-					<ul class="thumbnails">
-						<li class="span1">
-							<a href="https://www.linkedin.com/in/lovellfelix" class="thumbnail">
-							<img src="assets/img/qrc.png" alt="">
-							</a>
-							</li>
-					</ul>
-				</div>
-			</div>
-      </div>
-<!-- Footer
-================================================== -->
- <div id="push"></div>
-    </div>
-    <div id="footer">
-      <div class="container">
-	  <br />
-      <p class="pull-left">
-		&copy; 2012 <a href="http://lovellfelix.com" target="_bank">Lovell Felix</a></p>
-		 <div class="pull-right">
-			<a href="http://linkedin.com/in/lovellfelix"><img src="assets/img/linkedin_1.png"></a> 
-			<a href="http://facebook.com/lovell.felix" rel="nofollow" target="blank"><img src="assets/img/facebook_1.png"></a>
-			<a href="http://twitter.com/lovellfelix"><img src="assets/img/twitter_1.png"></a> 
-			<a href="http://gplus.to/lovell.felix" rel="nofollow" target="blank" title="+"><img src="assets/img/google_1.png"></a>
-            <a href="http://blog.lovellfelix.com/rss" rel="nofollow" title="RSS"><img src="assets/img/rss_1.png"></a>
-         </div>
-	  </div>
-    </div>			
-        <!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/bootstrap.js"></script>
-</footer>
+    </section>
+</div>
 
-  <!-- /container -->
 
-  </body>
-</html>
+<article class="container">
+{% for post in paginator.posts %}
+  {% unless post.draft %}
+    <section class="index">
+        <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
+        <div>
+            <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
+            <p>{{ post.excerpt }}</p>
+            <div class="meta">
+                Written By <address>{{ post.author.name }}</address> &mdash;
+                <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            </div>
+        </div>
+        <hr>
+    </section>
+    {% endunless %}
+    {% endfor %}
+    <section class="pagination" style="text-align:center">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a href="/" class="btn btn-outline">‹ Newer</a>
+        {% else %}
+        <a href="/page{{ paginator.previous_page }}" class="btn btn-outline">‹ Newer</a>
+        {% endif %}
+      {% endif %}
+      {% if paginator.next_page %}
+        <a href="/page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
+      {% endif %}
+    </section>
+</article>
