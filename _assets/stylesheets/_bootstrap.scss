@@ -565,7 +565,7 @@ blockquote.pull-right small:before {
   content: '';
 }
 blockquote.pull-right small:after {
-  content: '\00A0 \2014';
+  content: "\201C";
 }
 q:before,
 q:after,
