@@ -13,3 +13,6 @@ pkg/
 
 # Mac
 .DS_Store
+
+#MISC
+.bundle
