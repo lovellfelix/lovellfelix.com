@@ -1,21 +1,21 @@
 inc:
   # Blog Information
-  title:        "Jekyll Incorporated"
-  subtitle:     "Modern Jekyll based blog for companies"
+  title:        "Blog - Lovell Felix"
+  subtitle:     "Routine Tutorials"
   cover_image:  blog-cover.jpg
   logo:         logo.png
   
   # Company information
-  company:      Incorporated
-  url:          http://sendtoinc.com/
-  facebook:     sendtoinc
-  twitter:      sendtoinc
-  gplus:        '101183822199340201470'
-  about_link:   https://sendtoinc.com/about/
+  company:      Lovell Felix
+  url:          http://lovellfelix.com/
+  facebook:     lovell.felix
+  twitter:      lovellfelix
+  gplus:        '102676824509364241023'
+  about_link:   http://lovellfelix.com/about/
   
   # Product Information
-  product_link: http://incorporated.sendtoinc.com/
-  tagline:      "Get a modern blog for your company"
+  product_link: http://lovellfelix.com/labs
+  tagline:      " "
   
   # Comments
   disqus:
@@ -43,7 +43,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://incorporated.sendtoinc.com
+url:         http://lovellfelix.com
 source:      .
 destination: ./_site
 plugins:     ./_plugins
