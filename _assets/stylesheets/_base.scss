@@ -1,13 +1,30 @@
+html,
 body {
+  height: 100%;
   margin:0;
   border:0;
-  padding:80px 0 0;
+  padding:30px 0 0;
   font-family:$font;
   color:$text;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizelegibility;
   font-size:17px;
 }
+
+/*sticky footer */
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+#footer {
+  height: 60px;
+}
+
+
 
 .is-visible {
 
@@ -227,8 +244,7 @@ a {
 }
 
 .site-footer {
-  padding:5em 0;
-  margin:4em 0 0 0;
+  padding:20px 0;
   background:whitesmoke;;
   color:#aaa;
   font-size:0.8em;
