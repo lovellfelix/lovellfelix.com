@@ -4,6 +4,7 @@ inc:
   subtitle:     "Routine Tutorials"
   cover_image:  blog-cover.jpg
   logo:         logo.png
+  blog_link: /blog/
   
   # Company information
   company:      Lovell Felix
@@ -11,10 +12,10 @@ inc:
   facebook:     lovell.felix
   twitter:      lovellfelix
   gplus:        '102676824509364241023'
-  about_link:   http://lovellfelix.com/about/
+  about_link:   /about/
   
-  # Product Information
-  product_link: http://lovellfelix.com/labs
+  # Labs Information
+  labs_link: /labs/
   tagline:      " "
   
   # Comments
@@ -49,7 +50,7 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     []
+exclude:     [Gemfile, Gemfile.lock, Rakefile]
 timezone:    nil
 
 # Show future posts
@@ -59,8 +60,7 @@ limit_posts: 0
 pygments:    true
 
 relative_permalinks: true
-
-permalink:     pretty
+permalink: /blog/:title/
 paginate_path: 'page:num'
 paginate: 10
 
@@ -124,4 +124,4 @@ assets:
   cachebust: none
   cache: false
   gzip: [ text/css, application/javascript ]
-  debug: false
+
