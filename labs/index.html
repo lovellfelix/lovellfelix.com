@@ -1,0 +1,29 @@
+<!--<div id="projects">
+    <p class="single"><a href="/projects">Projects</a></p>
+
+    {% for category in site.data.categories %}
+    <p class="project-category">{{ category.category }}</p>
+    <ul class="subcategory">
+
+        {% for project in site.data.projects %}
+
+        {% if project.category == category.category and project.publish == true %}
+        <li><a href="/projects/{{ project.project }}.html">{{ project.project }}</a></li>
+        {% endif %}
+
+        {% endfor %}
+    </ul>
+    {% endfor %}
+
+</div>-->
+
+
+<ul>
+    {% for project in site.data.projects %}
+    <li>
+        <a href="https://github.com/{{ member.github }}">
+            {{ project.name }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
