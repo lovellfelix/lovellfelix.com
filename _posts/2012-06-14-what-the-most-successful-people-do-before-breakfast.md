@@ -37,4 +37,4 @@ Life changes. Sometimes we have to regroup, but the goal is to replace any ritua
 That is ultimately the amazing thing about mornings—they always feel like a new chance to do things right. A win scored then creates a cascade of success. The hopeful hours before most people eat breakfast are too precious to be blown on semiconscious activities. You can do a lot with those hours. Whenever I’m tempted to say I don’t have time for something, I remind myself that if I wanted to get up early, I could. These hours are available to all of us if we choose to use them.
 So how would you like to use your mornings? This important question requires careful thinking. But once you decide, small rituals can accomplish great things. When you make over your mornings, you can make over your life. That is what the most successful people know.
 Excerpted from What the Most Successful People Do Before Breakfast by Laura Vanderkam by arrangement with Portfolio Penguin, a member of Penguin Group (USA), Inc., Copyright © 2012 by Laura Vanderkam. Follow her on Twitter.
-[Image: Flickr user Arvind Grover]
+
