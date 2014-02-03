@@ -1,12 +1,18 @@
-description:
-  This is a sample project description.
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
-  
+
+name: Database Installer
+description: Website Database Installer Wizard
+snippet: "Website Database Installer Wizard. Easily integrate a database installation setup wizard to existing project"
+
+additionalFeatures: [Clean customizable UI built with Twitter Bootstrap, Simple two Step process, Check for exisiting installation]
+techUsed: [php, mysql, Twitter, Bootstrap]
+
+demo_url: http://demo.lovellfelix.com/dbi
+demo_title: demo
+source_url: http://github.com/lovellfelix/db-installer
+source_title: code
+
+screenshot: [img/screenshot/dbi.s1.png, img/screenshot/dbi.s2.png, img/screenshot/dbi.s3.png]
+
 thumbnail:
   url: /images/screenshot/dbi.promo_img.png
   title: Sample Project
@@ -20,20 +26,12 @@ layout: project
 project_description:
   We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
-website:   http://sampleproject.com/
 
 
-name: Database Installer
-description: Website Database Installer Wizard
-additionalFeatures:
-techUsed: [php, mysql, Twitter, Bootstrap]
 
-
-demo_url: http://demo.lovellfelix.com/dbi
-demo_title: demo
-source_url: http://github.com/lovellfelix/db-installer
-source_title: code
-
-screenshot: [img/screenshot/dbi.s1.png, img/screenshot/dbi.s2.png, img/screenshot/dbi.s3.png]
+endorsements:
+-
+  body:
+    Working with this company was great!
+  from: Endorser Name
+  role: Project Manager

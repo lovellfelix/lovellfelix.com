@@ -20,13 +20,13 @@ layout: project
 project_description:
   We did this project.
 published: true
-short:     This is a sample short description.
-title:     Sample Project
 website:   http://sampleproject.com/
 
 
-name: Database Installer
+name: Grenadian Buzz
 description: Website Database Installer Wizard
+snippet: "Employee Management System (EMS) - User Profile, Contact Information, Secure login, and Payroll Reports."
+
 additionalFeatures:
 techUsed: [php, mysql, Twitter, Bootstrap]
 
