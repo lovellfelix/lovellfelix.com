@@ -1,3 +1,6 @@
+layout: project
+published: true
+graduated: true
 
 name: Database Installer
 description: Website Database Installer Wizard
@@ -22,10 +25,7 @@ promo_img:
   url: /images/screenshot/dbi.promo_img.png
   title: Sample Project
   alt: Sample Project
-layout: project
-project_description:
-  We did this project.
-published: true
+
 
 
 
