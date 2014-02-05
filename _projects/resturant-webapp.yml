@@ -1,0 +1,33 @@
+layout: project
+published: true
+graduated: true
+
+name: RESTAURANT WEB APPLICATION
+description: "A Simple Restaurant Operation Web Application"
+snippet: "A Simple Restaurant Operation Web Application"
+
+additionalFeatures: 
+techUsed: [PHP, MYSQL]
+
+demo_url: 
+demo_title: N/A :(  
+source_url: https://github.com/lovellfelix/PHP-Restaurant-Web-Application
+source_title: SOURCE
+
+screenshot: [images/screenshot/screenshot/rwa.promo_img.png, images/screenshot/screenshot/rwa.s2.png, images/screenshot/screenshot/rwa.s3.png]
+
+thumbnail:
+  url: /images/screenshot/rwa.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+promo_img:
+  url: /images/screenshot/rwa.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+endorsements:
+-
+  body:
+  from: Endorser Name
+  role: Project Manager

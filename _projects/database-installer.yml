@@ -26,12 +26,8 @@ promo_img:
   title: Sample Project
   alt: Sample Project
 
-
-
-
 endorsements:
 -
   body:
-    Working with this company was great!
   from: Endorser Name
   role: Project Manager

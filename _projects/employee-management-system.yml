@@ -1,0 +1,36 @@
+layout: project
+published: true
+graduated: true
+
+name: Employee Management System
+description: "Employee Management System control Human Resources and personnel management. Advanced features make this application both flexible and easy-to-use!"
+snippet: "Employee Management System (EMS) - User Profile, Contact Information, Secure login, and Payroll Reports"
+
+additionalFeatures: [Clean customizable UI built with Twitter Bootstrap, Simple two Step process, Check for exisiting installation]
+techUsed: [PHP, MYSQL, Twitter Bootstrap]
+
+demo_url: http://demo.lovellfelix.com/ems
+demo_title: demo
+source_url: http://github.com/lovellfelix/ems
+source_title: code
+
+screenshot: [img/screenshot/ems.s1.png, img/screenshot/ems.s2.png, img/screenshot/ems.s3.png]
+
+thumbnail:
+  url: /images/screenshot/ems.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+promo_img:
+  url: /images/screenshot/ems.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+
+
+
+endorsements:
+-
+  body:
+  from: Endorser Name
+  role: Project Manager

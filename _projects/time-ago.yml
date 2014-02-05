@@ -1,0 +1,33 @@
+layout: project
+published: true
+graduated: true
+
+name: Time AGO
+description: "The function returns the difference between two Dates as a human string. For instance, the values returned are seconds ago, minutes ago, hours ago, day ago, weeks ago, year ago, and so on"
+snippet: Facebook style time ago php function
+
+additionalFeatures: 
+techUsed: [PHP]
+
+demo_url: 
+demo_title: N/A
+source_url: https://github.com/lovellfelix/Time-Ago
+source_title: CODES  
+
+screenshot: [images/screenshot/screenshot/ta.promo_img.png]
+
+thumbnail:
+  url: /images/screenshot/ta.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+promo_img:
+  url: /images/screenshot/ta.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+endorsements:
+-
+  body:
+  from: Endorser Name
+  role: Project Manager

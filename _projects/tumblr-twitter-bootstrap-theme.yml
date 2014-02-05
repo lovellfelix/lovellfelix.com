@@ -1,0 +1,33 @@
+layout: project
+published: true
+graduated: true
+
+name: Tumblr Twitter Bootstrap Theme
+description: "Tumblr theme built with Twitter bootstrap. Built with three things in-mind, clear typography, large media content and readability"
+snippet: "Tumblr theme built with Twitter bootstrap. Built with three things in-mind, clear typography, large media content and readability"
+
+additionalFeatures: 
+techUsed: [TUMBLR, TWITTER BOOTSTRAP]
+
+demo_url: http://demo.lovellfelix.com/ttb
+demo_title: demo
+source_url: https://github.com/lovellfelix/tumblr-twitter-bootstrap-theme
+source_title: CODES  
+
+screenshot: [images/screenshot/screenshot/tbt.promo_img.png, images/screenshot/screenshot/tbt.s2.png, images/screenshot/screenshot/tbt.s3.png]
+
+thumbnail:
+  url: /images/screenshot/tbt.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+promo_img:
+  url: /images/screenshot/tbt.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+endorsements:
+-
+  body:
+  from: Endorser Name
+  role: Project Manager

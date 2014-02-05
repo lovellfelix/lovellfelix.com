@@ -1,39 +1,33 @@
-description:
-  This is a sample project description.
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
-  
+layout: project
+published: true
+graduated: true
+
+name: Grenadian Buzz
+description: "An easy way to listen popular Grenadian Radio Stations, and read loacal news overseas or on the go."
+snippet: "An easy way to listen popular Grenadian Radio Stations, and read loacal news overseas or on the go."
+
+additionalFeatures: 
+techUsed: [Java, Ruby]
+
+demo_url: https://play.google.com/store/apps/details?id=com.lovellfelix.grenadianbuzzz
+demo_title: Download
+source_url: 
+source_title: :(
+
+screenshot: [img/screenshot/gb.s1.png, img/screenshot/gb.s2.png, img/screenshot/gb.s3.png]
+
 thumbnail:
-  url: /images/screenshot/dbi.promo_img.png
+  url: /images/screenshot/gb.promo_img.png
   title: Sample Project
   alt: Sample Project
 
 promo_img:
-  url: /images/screenshot/dbi.promo_img.png
+  url: /images/screenshot/gb.promo_img.png
   title: Sample Project
   alt: Sample Project
-layout: project
-project_description:
-  We did this project.
-published: true
-website:   http://sampleproject.com/
 
-
-name: Grenadian Buzz
-description: Website Database Installer Wizard
-snippet: "Employee Management System (EMS) - User Profile, Contact Information, Secure login, and Payroll Reports."
-
-additionalFeatures:
-techUsed: [php, mysql, Twitter, Bootstrap]
-
-
-demo_url: http://demo.lovellfelix.com/dbi
-demo_title: demo
-source_url: http://github.com/lovellfelix/db-installer
-source_title: code
-
-screenshot: [img/screenshot/dbi.s1.png, img/screenshot/dbi.s2.png, img/screenshot/dbi.s3.png]
+endorsements:
+-
+  body:
+  from: 
+  role: 
