@@ -390,3 +390,50 @@ hr.soften {
 }
 
 
+/* PORTFOLIO */
+
+.projects {
+  padding-top:80px;
+
+}
+
+.projects .col-sm-6 .col-md-4 {
+  margin-top:15px;
+}
+
+
+.projects img {
+  width: auto\9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  background:$accent;
+}
+
+/* bottom description in projects */
+.desc {
+  margin-top:0px;
+  margin-bottom:20px;
+  padding:10px;
+  background:whitesmoke;;
+  color:$text;
+  min-height: 190px;
+}
+
+.desc h5 {
+  font-size:17px;
+  font-weight: bold;
+  align-content: right;
+}
+
+.desc p {
+  font-size:14px;
+}
+
+.desc:hover h5 {
+  color:$accent;
+}
+
+

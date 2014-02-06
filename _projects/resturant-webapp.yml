@@ -2,7 +2,7 @@ layout: project
 published: true
 graduated: true
 
-name: RESTAURANT WEB APPLICATION
+name: Restaurant We Application
 description: "A Simple Restaurant Operation Web Application"
 snippet: "A Simple Restaurant Operation Web Application"
 
@@ -22,7 +22,7 @@ thumbnail:
   alt: Sample Project
 
 promo_img:
-  url: /images/screenshot/rwa.promo_img.png
+  url: /images/screenshot/no_photo_img.png
   title: Sample Project
   alt: Sample Project
 
