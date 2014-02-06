@@ -2,7 +2,7 @@
 layout: base
 title: Labs
 ---
-<div class="blog-cover" style="background-image:url(/images/{{ site.inc.cover_image }});">
+<div class="labs-cover" style="background-image:url(/images/{{ site.inc.labs_cover_image }});">
 
     <section>
         <div class="container">
@@ -20,7 +20,7 @@ title: Labs
     <div class="col-sm-6 col-md-4">
         {% if project[1].promo_img %}
         <a href="/labs/{{ project[0] }}">
-            <img src="{{ project[1].promo_img.url }}"  alt=""></a>
+            <img src="{{ project[1].promo_img.url }}" alt=""></a>
         {% endif %}
         <div class="desc">
             <a href="/labs/{{ project[0] }}">
