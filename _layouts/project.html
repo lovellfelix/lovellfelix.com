@@ -2,7 +2,16 @@
 layout: base
 ---
 
+<div class="labs-cover" style="background-image:url(/images/{{ site.inc.labs_cover_image }});">
 
+    <section>
+        <div class="container">
+            <h1>{{ site.inc.labs_title}}</h1>
+            {% if site.inc.labs_subtitle %}<h3>{{ site.inc.labs_subtitle }}</h3>{% endif %}
+
+        </div>
+    </section>
+</div>
 
 
 
@@ -38,128 +47,46 @@ layout: base
     {% endfor %}
   </div>
 {% endif %}-->
-
+<article class="container">
 <div class="container">
+
+ <h1>{{ page.name }} </h1>
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>
-        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-    </div>
+     
+        <div class="col-xs-12 col-sm-6 col-md-8">
+        <img src="{{ page.promo_img.url }}" alt="...">
+        </div>
+        <div class="col-xs-6 col-md-4">  
+        <p></p>
+
+      <div class="panel panel-default">
+      <div class="panel-heading">
+    <h3 class="panel-title">Description</h3></div>
+      <div class="panel-body">
+        {{ page.description }}
+      </div>
+
 </div>
 
-<section id="content" class="container">
-    <article class="ten columns offset-by-four" id="article-content">
-        <!-- <header class="ten columns" id="article-header">
-                <h1>Suncani Mobile</h1>
-              </header> -->
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Technology</h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+        <p>Try -     <a href="{{ page.demo.source_url }}">{{ page.thumbnail2.url }}</a> 
+        <a href="{{ page.demo.source_url }}">{{ page.demo.source_title }}</a>
 
-        <div class="ten columns gray" id="date-header">
-            <p>
-
-
-            </p>
-
+        </p>
+      
         </div>
-
-        <div class="ten columns" id="article-content">
-            <div class="hero-unit">
-                <div class="row">
-                    <div class="span8">
-                        <h1>Suncani Mobile</h1>
-                        <p>
+    </div>
+</div>
+</article>
 
 
-                            Hotel business in Hvar, Croatia
-
-                        </p>
-                    </div>
-                    <div class="span4 project-links ac" rel="tooltip" data-original-title="Use keyboard arrows - up">
-
-
-                        <a rel="shortcut" data-key="up" href="/en/portfolio"><sup class="icon-chevron-up"></sup> &nbsp;Back to list</a>
-
-
-                    </div>
-                </div>
-            </div>
-
-            <hr>
-
-            <section class="row" id="project">
-
-                <!-- <h1 class="span12">
-                                Suncani Mobile
-                            </h1> -->
-                <!-- portfolio item-->
-                <div class="span8 project">
-                    <div class="thumbnail keep-plain">
-                        <img src="/static/assets/projects/618x586/suncani.jpg" title="Suncani Mobile" alt="">
-
-                    </div>
-
-                    <!-- <div class="thumbnail zoom">
-                                        <a href="project.html" title="">
-                                            <img alt="" src="http://placehold.it/618x386/74C676s/fff" />
-                                        </a>
-                                    </div> -->
-
-                </div>
-                <div class="span4 project-description">
-
-                    <h4>Client</h4>
-                    <p>
-                        — Agence Tuesday
-                    </p>
-
-
-
-                    <h4>Year</h4>
-                    <p>
-                        — 2012
-                    </p>
-
-
-                    <h4>Project overview</h4>
-                    <p>
-
-
-                        My work was to develop the mobile version of Suncani Hvar hotels portal.
-
-
-                    </p>
-
-
-                    <h4>Technology</h4>
-                    <ul class="list-style">
-
-                        <li class="icon-ok techno-html5">HTML5</li>
-
-                        <li class="icon-ok techno-css3">CSS3</li>
-
-                        <li class="icon-ok techno-drupal">Drupal 7</li>
-
-                    </ul>
-
-
-
-                    <h4>Visit site</h4>
-                    <p class="website"><a href="http://www.suncanihvar.com" target="_blank">http://www.suncanihvar.com</a></p>
-
-
-
-
-
-                </div>
-                <!-- end portfolio item-->
-
-            </section>
-
-            <br>
-
-
-
-
-
-        </div></article>
 </section>
 
 
