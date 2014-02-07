@@ -9,10 +9,11 @@ snippet: "An easy way to listen popular Grenadian Radio Stations, and read loaca
 additionalFeatures: 
 techUsed: [Java, Ruby]
 
-demo_url: https://play.google.com/store/apps/details?id=com.lovellfelix.grenadianbuzzz
-demo_title: Download
-source_url: 
-source_title: :(
+demo:
+  url: https://play.google.com/store/apps/details?id=com.lovellfelix.grenadianbuzzz
+  title: Download
+  source_url: 
+  source_title: :(
 
 screenshot: [img/screenshot/gb.s1.png, img/screenshot/gb.s2.png, img/screenshot/gb.s3.png]
 

@@ -9,10 +9,11 @@ snippet: "Clean and simple image uploader and viewer built with Twitter Bootstra
 additionalFeatures: 
 techUsed: [PHP, TWITTER BOOTSTRAP]
 
-demo_url: http://demo.lovellfelix.com/iul
-demo_title: demo
-source_url: 
-source_title: N/A :(  
+demo:
+  url: http://demo.lovellfelix.com/iul 
+  title: Demo
+  source_url: 
+  source_title: N/A :( 
 
 screenshot: [images/screenshot/screenshot/iul.s1.png, images/screenshot/screenshot/iul.s2.png, images/screenshot/screenshot/iul.s3.png]
 

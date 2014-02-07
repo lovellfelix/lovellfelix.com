@@ -9,10 +9,11 @@ snippet: G-VIDZ.COM is the number one source for Grenadian videos
 additionalFeatures: 
 techUsed: [PHP, MYSQL, SMARTY, JQUERY, TWITTER BOOTSTAP]
 
-demo_url: http://g-vidz.com/
-demo_title: WEBSITE
-source_url: 
-source_title: N/A :( 
+demo:
+  url: http://g-vidz.com/
+  title: WEBSITE
+  source_url: 
+  source_title: N/A :( 
 
 screenshot: [images/screenshot/screenshot/gvidz.promo_img.png, images/screenshot/screenshot/gvidz.s2.png, images/screenshot/screenshot/gvidz.s3.png]
 

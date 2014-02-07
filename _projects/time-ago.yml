@@ -9,10 +9,11 @@ snippet: Facebook style time ago php function
 additionalFeatures: 
 techUsed: [PHP]
 
-demo_url: 
-demo_title: N/A
-source_url: https://github.com/lovellfelix/Time-Ago
-source_title: CODES  
+demo:
+  url: 
+  title: N/A :(
+  source_url: https://github.com/lovellfelix/Time-Ago
+  source_title: SOURCE
 
 screenshot: [images/screenshot/screenshot/ta.promo_img.png]
 

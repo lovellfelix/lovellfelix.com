@@ -9,10 +9,12 @@ snippet: Dynamically create xml file using PHP and MySQL
 additionalFeatures: 
 techUsed: [PHP, MYSQL, XML]
 
-demo_url: 
-demo_title: N/A
-source_url: https://github.com/lovellfelix/XML-Generator
-source_title: CODES  
+demo:
+  url: 
+  title: demo
+  source_url: https://github.com/lovellfelix/XML-Generator
+  source_title: SOURCE
+
 
 screenshot: [images/screenshot/screenshot/xml.promo_img.png, images/screenshot/screenshot/xml.s2.png, images/screenshot/screenshot/xml.s3.png]
 

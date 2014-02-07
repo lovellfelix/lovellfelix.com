@@ -9,10 +9,12 @@ snippet: "A Quickway to find Grenadian Videos on Chrome"
 additionalFeatures: 
 techUsed: [JAVASCRIPT, JSON]
 
-demo_url: 
-demo_title: N/A :(  
-source_url: 
-source_title: N/A :( 
+demo:
+  url: 
+  title: N/A :( 
+  source_url: 
+  source_title: N/A :( 
+
 
 screenshot: [images/screenshot/screenshot/gvidzce.promo_img.png, images/screenshot/screenshot/gvidzce.s2.png, images/screenshot/screenshot/gvidzce.s3.png]
 

@@ -9,10 +9,11 @@ snippet: "Website Database Installer Wizard. Easily integrate a database install
 additionalFeatures: [Clean customizable UI built with Twitter Bootstrap, Simple two Step process, Check for exisiting installation]
 techUsed: [php, mysql, Twitter, Bootstrap]
 
-demo_url: http://demo.lovellfelix.com/dbi
-demo_title: demo
-source_url: http://github.com/lovellfelix/db-installer
-source_title: code
+demo:
+  url: http://demo.lovellfelix.com/dbi
+  title: Sample Project
+  source_url: http://github.com/lovellfelix/db-installer
+  source_title: code
 
 screenshot: [img/screenshot/dbi.s1.png, img/screenshot/dbi.s2.png, img/screenshot/dbi.s3.png]
 

@@ -9,10 +9,11 @@ snippet: A simple and clean user interface web application designed for Instagra
 additionalFeatures: 
 techUsed: [PHP, TWITTER BOOTSTRAP, INSTAGRAM API]
 
-demo_url: http://iul.com/
-demo_title: demo
-source_url: 
-source_title: N/A :(  
+demo:
+  url: http://lnsta.com/
+  title: WEBSITE
+  source_url: 
+  source_title: N/A :( 
 
 screenshot: [images/screenshot/screenshot/lnsta.s1.png, images/screenshot/screenshot/lnsta.s2.png, images/screenshot/screenshot/lnsta.s3.png]
 

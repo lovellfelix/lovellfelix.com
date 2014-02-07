@@ -9,10 +9,11 @@ snippet: "Employee Management System (EMS) - User Profile, Contact Information, 
 additionalFeatures: [Clean customizable UI built with Twitter Bootstrap, Simple two Step process, Check for exisiting installation]
 techUsed: [PHP, MYSQL, Twitter Bootstrap]
 
-demo_url: http://demo.lovellfelix.com/ems
-demo_title: demo
-source_url: http://github.com/lovellfelix/ems
-source_title: code
+demo:
+  url: http://demo.lovellfelix.com/ems
+  title: demo
+  source_url: http://github.com/lovellfelix/ems
+  source_title: code
 
 screenshot: [img/screenshot/ems.s1.png, img/screenshot/ems.s2.png, img/screenshot/ems.s3.png]
 
