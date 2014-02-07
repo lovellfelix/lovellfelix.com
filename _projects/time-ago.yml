@@ -2,7 +2,7 @@ layout: project
 published: true
 graduated: true
 
-name: Time AGO
+name: Time Ago
 description: "The function returns the difference between two Dates as a human string. For instance, the values returned are seconds ago, minutes ago, hours ago, day ago, weeks ago, year ago, and so on"
 snippet: Facebook style time ago php function
 
@@ -22,7 +22,7 @@ thumbnail:
   alt: Sample Project
 
 promo_img:
-  url: /images/screenshot/no_photo_img.png
+  url: /images/screenshot/ta.promo_img.png
   title: Sample Project
   alt: Sample Project
 
