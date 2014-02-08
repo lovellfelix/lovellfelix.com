@@ -11,7 +11,7 @@ techUsed: [php, mysql, Twitter, Bootstrap]
 
 demo:
   url: http://demo.lovellfelix.com/dbi
-  title: Sample Project
+  title: Demo
   source_url: http://github.com/lovellfelix/db-installer
   source_title: code
 
