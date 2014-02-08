@@ -360,42 +360,6 @@ a {
   color:$textmuted;
 }
 
-.btn {
-  color:#fff;
-  font-weight:bold;
-  background-color:#54b89d;
-  font-size:1em;
-  padding: 0.6em 1.2em;
-  display: inline-block;
-  position: relative;
-  border: 0;
-  text-align: center;
-  text-decoration: none;
-  font-style: normal;
-  font-weight:600;
-  cursor: pointer;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-  vertical-align: bottom;
-  text-rendering: optimizeLegibility;
-  border-radius: 2px;
-  vertical-align:middle;
-  font-family:"proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  border-radius:2px;
-  background:#4dab7d;
-  border:2px solid #4dab7d;
-  text-transform: uppercase;
-  white-space:nowrap;
-
-  &:hover {
-    background:darken(#4dab7d, 10%);
-    border-color:darken(#4dab7d, 10%);
-    color:#fff;
-  }
-
-  &:active {
-    box-shadow:none;
-  }
-}
 
 .btn-outline {
   background: none;
@@ -496,4 +460,20 @@ hr.soften {
   color:$accent;
 }
 
+.p_title {
+  border-bottom: 1px solid rgb(233, 233, 233);
+  height: 10px;
+  line-height: 20px;
+  text-align: left;
+  font: bold 17px arial,sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.st {
+  background-color: rgb(255, 255, 255);
+  display: inline;
+  padding-right: 10px;
+}
 
