@@ -2,13 +2,11 @@
 
 <div id="footer">
 
-
-
 <footer class="site-footer">
     <div class="container">
-        &copy; {{ site.time | date: "%Y" }}
-
+        
         <nav>
+        &copy; {{ site.time | date: "%Y" }}
             <a href="{{ site.inc.url }}">{{ site.inc.company }}</a> &middot;
             <a href="{{ site.inc.blog_link }}">Blog</a> &middot;
             {% if site.inc.labs_link %}<a href="{{ site.inc.labs_link }}">Labs</a> &middot; {% endif %}
@@ -28,7 +26,6 @@
         </nav>
     </div>
 </footer>
-
 
 </div>
 
