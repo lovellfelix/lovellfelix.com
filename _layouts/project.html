@@ -78,9 +78,14 @@ layout: base
     <h3 class="panel-title">Technology</h3>
       </div>
       <div class="panel-body">
-              {% if page.techUsed %}
-                {{ page.techUsed | join: ' · ' | upcase  }}
-              {% endif %}
+
+              {% for techs in page.techUsed %}
+
+
+                      <span class="label label-default">{{ techs | upcase  }}</span>
+
+
+              {% endfor %}
 
       </div>
     </div>
