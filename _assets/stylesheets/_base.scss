@@ -504,3 +504,54 @@ hr.soften {
     margin-right: 0;
     width: 16.666666%;
     }
+
+
+  /*CUSTOM BOOTSTRAP ELEMENTS */
+
+
+.bs-callout {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 3px solid #eee
+}
+
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px
+}
+
+.bs-callout p:last-child {
+  margin-bottom: 0
+}
+
+.bs-callout code {
+  background-color: #fff;
+  border-radius: 3px
+}
+
+.bs-callout-danger {
+  background-color: #fdf1ef;
+  border-color: #dd4b39
+}
+
+.bs-callout-danger h4 {
+  color: #c23321
+}
+
+.bs-callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc
+}
+
+.bs-callout-warning h4 {
+  color: #ba9e27
+}
+
+.bs-callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0
+}
+
+.bs-callout-info h4 {
+  color: #3b86b9
+}
