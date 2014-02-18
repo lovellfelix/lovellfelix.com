@@ -1,11 +1,4 @@
 
-.header,
-.marketing,
-.footer {
-  padding-right: 0;
-  padding-left: 0;
-}
-
 #resume {
   margin: 75px 0 0;
 }
@@ -25,10 +18,6 @@ th {
   font-weight: 400;
 }
 
-h1,h2,h3,h4 {
-  letter-spacing: -.04em;
-}
-
 td {
   padding-left: .75em;
   letter-spacing: -.04em;
@@ -38,11 +27,6 @@ td {
   font-weight: lighter;
 }
 
-h1 {
-  color: #1433b6;
-  text-shadow: #3f79dd 1px 0 0;
-  font-family: 'Rock Salt',cursive;
-}
 
 .position strong {
   color: #555;
@@ -53,10 +37,6 @@ h1 {
   margin-bottom: 25px;
 }
 
-strong {
-  margin-bottom: 20px;
-}
-
 #summary ol {
   /*padding-left: 15px;*/;
 }
@@ -65,10 +45,6 @@ strong {
   line-height: 1.8em;
   font-size: 1.2em;
   margin-left: 0;
-}
-
-h1 {
-  font-size: 2em;
 }
 
 @media (max-width: 767px) {

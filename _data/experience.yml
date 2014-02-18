@@ -1,0 +1,27 @@
+- company: Web Fire Communication
+  location: Wichita Falls, TX
+  position:
+      - name        : System Administrator
+        date        : Oct 11 - Present
+        description : Basketball
+        task:
+          - Created web hosting accounts on cPanel
+          - Set-up virtual hosting within Apache, and configured Postfix/Sendmail Server
+          - Performed basic installation of 3rd Party Content Management Application
+        price       : 450.00
+      - name        : Technician
+        date        : Jan 10 – Sept 11
+        description : Super Hoop
+        price       : 2392.00
+      - name        : Intern
+        date        : Jun 09 – Dec 09
+        description : Super Hoop
+        price       : 2392.00
+
+
+- company: GOOGLE
+  location: California, LA
+
+- company: SPICE JAMZ RADIO
+  location: Brooklyn, NY
+
