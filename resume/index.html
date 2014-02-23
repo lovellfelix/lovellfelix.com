@@ -43,8 +43,6 @@ title: Labs
           </div>
     		</div>
 
-
-
   			<div class='position'>
                     {% for experience in site.data.experience %}
                 <h3>{{ experience.company }}  — <small class='citystate'>{{ experience.location }}</small></h3>
@@ -55,48 +53,15 @@ title: Labs
                 {% for positions in experience.position %}
                     <li> <strong>{{ positions.name }}</strong>, {{ positions.date }}</li>
 
-                    <ul class="">
-                    <li> {{ positions.task | join:'<br /> </li>' }}
-
+                    <ul class="list-unstyled">
+                    <li>{{ positions.task | join:'<br /> </li>' }}
                     </ul>
-
-
                 {% endfor %}
                 </ul>
 
-
-
-
-
-
-
-
                 {% endfor %}
 
-
-
-  				<h3>Employer <small class='citystate'>City, State</small></h3>
-  				<strong>Title <span class='dates pull-right'>09/1900 - 10/2000</span></strong>
-  				<ul class="circle">
-  					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  					tempor incididunt.</li>
-  					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  					tempor incididunt.</li>
-  				</ul>
-  			</div>
-  			<div class='position'>
-  				<h3>Employer <small class='citystate'>City, State</small></h3>
-  				<strong>Title <span class='dates pull-right'>09/1900 - 10/2000</span></strong>
-  				<ul class="circle">
-  					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  					tempor incididunt.</li>
-  					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  					tempor incididunt.</li>
-  				</ul>
-  			</div>
-
                 <hr />
-
                 <table id="skills">
                     <tr><th>Core</th><td>Your, primary, skill, go, here, here, here</td></tr>
                     <tr><th>Dabble</th><td>Things, you, aspire, to, work, on, go, here</td></tr>
