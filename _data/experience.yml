@@ -55,9 +55,9 @@
         description :
         award:
         task:
-      - ● Found bugs/errors related to web pages rendered by the Chrome OS
-      - ● Submitted detail report to Google outlining bugs/errors discovered
-      - ● Suggested Features to improve the Chrome OS user Experience
+          - ● Found bugs/errors related to web pages rendered by the Chrome OS
+          - ● Submitted detail report to Google outlining bugs/errors discovered
+          - ● Suggested Features to improve the Chrome OS user Experience
 
 - company: SPICE JAMZ RADIO
   location: Brooklyn, NY
@@ -67,23 +67,23 @@
         description :
         award:
         task:
-      - ● Installed and administered CentOS Server responsible for hosting website, email accounts and DNS
-      - ● Configured Apache virtual host, Postfix Mail Server, and Managed DNS with BIND
-      - ● Built secure ftp transmission to web server using PureFTPD as a gateway
-      - ● Configured and maintained Shoutcast streaming audio server and Red5 streaming
-        video server
-      - ● Monitored server and site technical performance
-      - ● Designed and maintained the company website, including graphics, animation and
-        functionality
-      - ● Performed navigation and browser compatibility, and quality-control for third party
-        content
-      - ● Implemented search engine optimization strategies
-      - ● Built, debugged and deployed company’s Android application
-      - ● Worked with the Marketing officer to set and ensure marketing campaigns achieve budgeted commercial targets
-      - ● Circulated efficient and accurate reporting, detailing results of each web marketing
-        campaign and possible improvement.
-      - ● Advised Marketing officer on the improvement, results, competition and new direction
-        in technology to assist with marketing of the brand.
+          - ● Installed and administered CentOS Server responsible for hosting website, email accounts and DNS
+          - ● Configured Apache virtual host, Postfix Mail Server, and Managed DNS with BIND
+          - ● Built secure ftp transmission to web server using PureFTPD as a gateway
+          - ● Configured and maintained Shoutcast streaming audio server and Red5 streaming
+            video server
+          - ● Monitored server and site technical performance
+          - ● Designed and maintained the company website, including graphics, animation and
+            functionality
+          - ● Performed navigation and browser compatibility, and quality-control for third party
+            content
+          - ● Implemented search engine optimization strategies
+          - ● Built, debugged and deployed company’s Android application
+          - ● Worked with the Marketing officer to set and ensure marketing campaigns achieve budgeted commercial targets
+          - ● Circulated efficient and accurate reporting, detailing results of each web marketing
+            campaign and possible improvement.
+          - ● Advised Marketing officer on the improvement, results, competition and new direction
+            in technology to assist with marketing of the brand.
 
 
 
