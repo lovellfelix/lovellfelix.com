@@ -14,7 +14,7 @@
     .caret {
         opacity:0.2;
     }
-    
+
     .brand img {
         height:44px;
         /*margin-left:175px; TODO Need to figure this out  navigation on small screens*/
@@ -84,3 +84,51 @@ body.nav-hidden {
     }
 }
 
+.navbar-logo {
+  padding: 2px 2px;
+
+}
+
+.navbar-logo img {
+  height: 44px;
+  width: 44px;
+  padding-top: 4px;
+}
+
+.navbar-default {
+  background:#fff;
+  left:0;
+  right:0;
+  top:0;
+  box-shadow:0 0 1px 1px rgba(0,0,0,0.1);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  transition:all 0.35s ease;
+  z-index:100;
+
+
+}
+
+
+.container>.navbar-header {
+   margin-left: 0px;
+}
+
+.navbar-default .navbar-toggle {
+
+  float: right;
+  border-color: #fff;
+}
+
+.tagline {
+  float:right;
+  text-align:right;
+  font-size:15px;
+  font-weight:600;
+  padding-top: 8px;
+
+  span {
+    line-height:0;
+    padding-right:20px;
+  }
+}

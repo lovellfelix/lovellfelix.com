@@ -3,7 +3,6 @@ body {
   height: 100%;
   margin:0;
   border:0;
-  padding:30px 0 0;
   font-family:$font;
   color:$text;
   -webkit-font-smoothing:antialiased;
@@ -119,7 +118,7 @@ a {
     right: 0;
     top: 0;
     bottom:0;
-    padding: 200px 0;
+    padding: 150px 0;
     z-index:10;
 
     a {
