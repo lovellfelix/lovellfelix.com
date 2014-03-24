@@ -31,7 +31,8 @@ layout: base
 
         <footer>
             <address>
-               {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
+
+               {% if page.author.image %}<img src="{{ page.author.image }}">{% endif %}
                 <p>Written by <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
                 <span class="muted">{{ page.author.bio }}</span>
                 </p>
