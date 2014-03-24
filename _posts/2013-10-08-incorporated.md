@@ -13,6 +13,8 @@ author:
   gplus: 100687498195339762535 
   bio: Co-founder, Design
   image: ks.png
+
+draft: true
 ---
 
 Incorporated provides a great typography, responsive design, author details, semantic markup and more.
