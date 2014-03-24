@@ -4,6 +4,8 @@ title: Building a custom tumblr. theme
 date: '2012-06-04T21:42:00-07:00'
 tags: 
 tumblr_url: http://blog.lovellfelix.com/post/24447493615/building-a-custom-tumblr-theme
+
+draft: true
 ---
 To start, click the name of your blog at the top of the Dashboard, click the ”Customize appearance” button on the right side of the page. Click the ”Edit HTML” button under the theme thumbnail to access your current theme’s HTML code.
 Tumblr has two types of special operators used to render content in your HTML.

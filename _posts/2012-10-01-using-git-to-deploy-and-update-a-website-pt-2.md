@@ -2,7 +2,15 @@
 layout: post
 title: Using Git to deploy and update a website Pt. 2
 date: '2012-10-01T17:00:12-07:00'
-tags: 
+tags:
+
+author:
+  name: Lovell Felix
+  twitter: lovellfelix
+  gplus: 102676824509364241023
+  bio: Geek, Google Fanboy, Tech News Junkie, Entrepreneur - Drinker of tea :)
+  image: https://lh3.googleusercontent.com/-Ubq3pEfgeLk/AAAAAAAAAAI/AAAAAAAAOvs/nGutWDQ5OGc/s120-c/photo.jpg.png
+
 tumblr_url: http://blog.lovellfelix.com/post/32691308177/using-git-to-deploy-and-update-a-website-pt-2
 ---
 Previously I wrote Tutorial: How to use Git to deploy and update a website Pt. 1 I was able to automatically
