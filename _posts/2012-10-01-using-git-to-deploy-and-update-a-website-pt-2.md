@@ -19,10 +19,13 @@ example: /home/project/website.git/Then we define (and enable) a post-receive ho
 into the respectable web server’s DocumentRoot.
 
 {% highlight scss %}
-$ vi hooks/post-receivecat >
-#!/bin/bashwhile read oldrev newrev refdo  branch=`echo $ref | cut -d/ -f3`  if [ "master" == "$branch" ];
+vi hooks/post-receivecat >
+#!/bin/bashwhile read oldrev newrev refdo  branch=`echo $ref | cut -d/ -f3`
+if [ "master" == "$branch" ];
 then    git --work-tree=/path/under/root/dir/live-site/ checkout -f $branch    
-echo ''Changes pushed live.''  fi  if [ "dev" == "$branch" ];
+echo ''Changes pushed live.''  
+fi  
+if [ "dev" == "$branch" ];
 then    
 git --work-tree=/path/under/root/dir/dev-site/ checkout -f $branch    
 echo ''Changes pushed to dev.''  
