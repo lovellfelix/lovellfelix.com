@@ -14,15 +14,26 @@ author:
 tumblr_url: http://blog.lovellfelix.com/post/24913411212/tutorial-how-to-use-git-to-deploy-and-update-a-website
 
 ---
-The HTML source for web site lives in a Git repository on a local workstation. This page describes how I set things up so that I can make changes live by running just “git push web”.
-The one-line summary: push into a remote repository that has a detached work tree, and a post-receive hook that runs “git checkout -f”.
+
+<b>The Problem:</b>
+
+<blockquote> I routinely push the changes I made on my website to a remote server that stores my git repositories, and host the website. It's somewhat redundant, because after I push the updates I made using git I use an FTP client to upload the same files to the same server o.0. Yes! There must be a way to automate this process, and <b>kill two birds with one stone</b>. </blockquote>
+
+<h3>Solution?</h3>
+
+- Push changes to Git remote server, and update website with one command.
+
+-- push into a remote repository that has a detached work tree, and a post-receive hook that runs “git checkout -f”
+
+This tutorial outlines the steps I took to make changes live by running just <b>“git push web”</b>.
+
 
 <b>The local repository</b>
 
 
 It doesn’t really matter how the local repository is set up, but for the sake of argument, let’s suppose you’re starting one from scratch.
 
-{% highlight scss %}
+{% highlight bash linenos%}
 mkdir website && cd website
 echo ''Hello, world!'' > index.html
 git add index.html
