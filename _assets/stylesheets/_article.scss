@@ -183,7 +183,7 @@ article {
         border: 0;
         padding: 1.5em 3em;
         
-        background: whitesmoke;
+        
         border: 0;
         border-radius: 2px;
         border-bottom:1px solid #eee;
@@ -245,4 +245,13 @@ article {
         }
     }
 
+/*
+*Fixed code hightlight color background 
+*/
+pre {
+
+background-color: rgba(253, 253, 253, 0);
+
+
+}
 }
