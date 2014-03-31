@@ -3,10 +3,20 @@ layout: base
 title: Blog
 ---
 
-<div class="container">
-    <div class="page-header">
 
-    </div>
+<div class="labs-cover" style="background-image:url(/images/{{ site.inc.testimonials_cover_image }});">
+
+    <section>
+        <div class="container">
+            <h1>{{ site.inc.testimonials_title}}</h1>
+            {% if site.inc.testimonials_subtitle %}<h3>{{ site.inc.testimonials_subtitle }}</h3>{% endif %}
+
+        </div>
+    </section>
+</div>
+
+<div class="container">
+   
 
 
     <ul class="timeline">
@@ -18,24 +28,23 @@ title: Blog
 
      <li class="timeline-{{ testimonial.tag }}">
       <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-
-
         <div class="timeline-panel">
-            <div class="timeline-heading">
-                <div class="media">
-                    <a class="pull-left" href="#">
-                        <img class="media-object img-circle" src="/images/testimonials/{{ testimonial.profile-img }}" height="64px" width="64px" alt="...">
-                    </a>
-                    <div class="timeline-title">
-                        <h4 class="timeline-heading">{{ testimonial.name }}</h4>
-                        <p><small class="text-muted"><i class="glyphicon gglyphicon-check"></i> {{ testimonial.date }} - {{ testimonial.from }}</small></p>
+         <div class="media">
+            <a class="pull-left" href="{{ testimonial.url }}">
+                <img class="media-object img-circle" src="/images/testimonials/{{ testimonial.profile-img }}" alt="{{ testimonial.name }} - {{ testimonial.title }}">
+             </a>
+            <div class="media-body">
+            <h4 class="media-heading">
+            <a href="{{ testimonial.url }}">{{ testimonial.name }}</a></h4>
+                <small class="text-muted">{{ testimonial.title }}</small> <br />
+                <small class="text-muted">{{ testimonial.date }} - {{ testimonial.from }}</small>
+            </div>
 
-                    </div>
-                </div>
             </div>
             <div class="timeline-body">
-               <p>{{ testimonial.comment }}</p>
+                <p>{{ testimonial.comment }}</p>
             </div>
+           
       </div>
 
 
@@ -44,15 +53,5 @@ title: Blog
     {% endfor %}
     </ul>
 
-
-
-
-
-
-
-
-
-
-
-    </ul>
+   </ul>
 </div>
