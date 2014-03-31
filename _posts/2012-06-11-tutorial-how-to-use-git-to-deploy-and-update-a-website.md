@@ -18,10 +18,16 @@ This tutorial outlines the steps I took to make changes pushed to my remote Git 
 Push changes to Git remote server, and update website with <strong>one command</strong>.
 
 
-<div class="bs-callout bs-callout-danger">
-    <h4>The Problem</h4>
-    <p>I routinely push the changes I made on my website to a remote server that stores my git repositories, and host the website. It's somewhat redundant, because after I push the updates I made using git I use an FTP client to upload the same files to the same server o.0. Yes! There must be a way to automate this process, and <strong>kill two birds with one stone</strong>. </p>
-  </div>
+
+
+
+
+<div class="alert-message alert-message-danger">
+  <h4>The Problem</h4>
+  <p>
+I routinely push the changes I made on my website to a remote server that stores my git repositories, and host the website. It's somewhat redundant, because after I push the updates I made using git I use an FTP client to upload the same files to the same server o.0. Yes! There must be a way to automate this process, and <strong>kill two birds with one stone</strong>. </p>
+</div>
+
 
 
 
