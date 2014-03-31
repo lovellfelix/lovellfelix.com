@@ -83,7 +83,10 @@ a {
   }
 }
 
-.index {
+
+
+
+/*.index {
   margin:0 5em;
 
   > div{
@@ -156,7 +159,7 @@ a {
     }
   }
 
-}
+}*/
 .blog-cover {
   @extend .article-cover;
   height: 250px;
@@ -494,3 +497,16 @@ hr.soften {
     }
 
 
+    .dp
+    {
+        border:10px solid #eee;
+        transition: all 0.2s ease-in-out;
+    }
+    .dp:hover
+    {
+        border:2px solid #eee;
+        transform:rotate(360deg);
+        -ms-transform:rotate(360deg);  
+        -webkit-transform:rotate(360deg);  
+        /*-webkit-font-smoothing:antialiased;*/
+    }
