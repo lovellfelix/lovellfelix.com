@@ -4,6 +4,10 @@
   position: relative;
 }
 
+.timeline-heading {
+  padding-bottom: 1px;
+}
+
 .timeline:before {
   top: 0;
   bottom: 0;
@@ -16,7 +20,6 @@
 }
 
 .timeline > li {
-  margin-bottom: 20px;
   position: relative;
 }
 
