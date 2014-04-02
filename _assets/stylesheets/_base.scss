@@ -14,7 +14,7 @@ body {
 /*sticky footer */
 
 #wrap {
-  min-height: 100%;
+  min-height: 99%;
   height: auto;
   margin: 0 auto -60px;
   padding: 0 0 60px;
@@ -183,17 +183,54 @@ a {
 
 
   section {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    padding: 150px 0;
-    z-index: 10;
 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 50%;
+
+    
   }
 
+
 }
+
+
+.parallax {
+  background: no-repeat fixed 50% 0;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+
+  .logotext {
+    
+    top: 35%;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.7);
+    
+  }
+  
+  .text {
+    width: 22em;
+    position: fixed;
+
+    left: 50%;
+    padding: 20px 35px 25px;
+    background: rgba(0,0,0,.5);
+    border: .2em solid #fff;
+    line-height: 1.2;
+    margin-left: -12em;
+    font-size: 1em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+
 
 .blog-cover {
   @extend .article-cover;
