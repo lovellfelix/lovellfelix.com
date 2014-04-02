@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizelegibility;
   font-size:17px;
+  background-color: #ffffff;
 }
 
 /*sticky footer */
@@ -86,7 +87,7 @@ a {
 
 
 
-/*.index {
+.index {
   margin:0 5em;
 
   > div{
@@ -106,7 +107,10 @@ a {
     margin-right:30px;
   }
 }
-.index-cover {
+
+
+
+/* .index-cover {
   @extend .article-cover;
   height: 320px;
   background: url("../images/grid.png") repeat center top;
@@ -159,13 +163,35 @@ a {
     }
   }
 
-}*/
+}
 
 
 .index-cover {
   position: fixed;
   top: 35%;
   left: 35%;
+
+}*/
+
+
+.index-cover {
+
+  height: 60px;
+  background-color: $accent;
+  background-position: center center;
+  z-index: 1;
+
+
+  section {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 150px 0;
+    z-index: 10;
+
+  }
 
 }
 
