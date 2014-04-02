@@ -14,26 +14,21 @@ author:
 tumblr_url: http://blog.lovellfelix.com/post/24913411212/tutorial-how-to-use-git-to-deploy-and-update-a-website
 
 ---
-This tutorial outlines the steps I took to make changes pushed to my remote Git server live by running just <strong>“git push web”</strong>. 
-Push changes to Git remote server, and update website with <strong>one command</strong>.
+This tutorial outline the steps I took to simultaneously push to my remote Git Server, and update my website with one command.
 
-
-
-
-
+<strong>“git push web”</strong>
 
 <div class="alert-message alert-message-danger">
   <h4>The Problem</h4>
   <p>
-I routinely push the changes I made on my website to a remote server that stores my git repositories, and host the website. It's somewhat redundant, because after I push the updates I made using git I use an FTP client to upload the same files to the same server o.0. Yes! There must be a way to automate this process, and <strong>kill two birds with one stone</strong>. </p>
+I routinely push the code commits I make on my website to a remote server that stores my git repositories, and host the website. It's somewhat redundant, because after I push the updates I made using git I use an FTP client to upload the same files to the same server o.0. Yes! There must be a way to automate this process, and <strong>kill two birds with one stone</strong>. 
+</p>
 </div>
 
 
+ 
 
-
-<h3>Solution?</h3> 
-
-push into a remote repository that has a detached work tree, and a post-receive hook that runs “git checkout -f”
+At the end f thpush into a remote repository that has a detached work tree, and a post-receive hook that runs “git checkout -f”
 
 
 
