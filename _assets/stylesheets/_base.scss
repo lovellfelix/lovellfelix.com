@@ -40,9 +40,7 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5 {
-  color:#263c4c;
-}
+
 
 h1, h2 {
   font-family:$fontheadings;
@@ -199,9 +197,7 @@ a {
 
 
 .parallax {
-  background: no-repeat fixed 50% 0;
   background-size: cover;
-  text-align: center;
   color: #fff;
   width: 100%;
   overflow: hidden;
@@ -211,6 +207,8 @@ a {
     top: 35%;
     text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
     box-shadow: 0px 1px 2px rgba(0,0,0,0.7);
+    -moz-border-radius: 15px;
+    border-radius: 15px;
     
   }
   
@@ -221,9 +219,8 @@ a {
     left: 50%;
     padding: 20px 35px 25px;
     background: rgba(0,0,0,.5);
-    border: .2em solid #fff;
     line-height: 1.2;
-    margin-left: -12em;
+    margin-left: -11em;
     font-size: 1em;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
