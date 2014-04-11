@@ -1,7 +1,7 @@
 inc:
   # Blog Information
   title:        "Lovell Felix"
-  blog_title: "blog"
+  blog_title: "Blog"
   blog_subtitle:     "Routine Tutorials"
   cover_image:  blog-cover.png
   logo:         logo.png
@@ -13,6 +13,7 @@ inc:
   facebook:     lovell.felix
   twitter:      lovellfelix
   gplus:        '102676824509364241023'
+  profile_pic: https://lh3.googleusercontent.com/-Ubq3pEfgeLk/AAAAAAAAAAI/AAAAAAAAOvs/nGutWDQ5OGc/s120-c/photo.jpg.png
   about_link:   /about/
 
   #Resume
@@ -21,7 +22,7 @@ inc:
 
   # Labs Information
   labs_title: Labs
-  labs_subtitle: Playground For Some Of Wild And Crazy Ideas :)
+  labs_subtitle: Playground For Some Of My Wild And Crazy Ideas :)
   labs_cover_image:  lab-cover.jpg
   labs_link: /labs/
   tagline:      " "
