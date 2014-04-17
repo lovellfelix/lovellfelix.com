@@ -1,0 +1,53 @@
+
+/*!
+ * TODC Bootstrap v3.1.0-3.2.0 (http://todc.github.com/todc-bootstrap/)
+ * Copyright 2011-2014 Tim O'Donnell
+ * Licensed under MIT (http://www.opensource.org/licenses/mit-license.php)
+ */
+
+.label {
+  font-size: 80%;
+  border-radius: .25em;
+}
+.label-default {
+  background-color: #999;
+}
+.label-default[href]:hover,
+.label-default[href]:focus {
+  background-color: #808080;
+}
+.label-primary {
+  background-color: #4d90fe;
+}
+.label-primary[href]:hover,
+.label-primary[href]:focus {
+  background-color: #1a70fe;
+}
+.label-success {
+  background-color: #35aa47;
+}
+.label-success[href]:hover,
+.label-success[href]:focus {
+  background-color: #298337;
+}
+.label-info {
+  background-color: #5bc0de;
+}
+.label-info[href]:hover,
+.label-info[href]:focus {
+  background-color: #31b0d5;
+}
+.label-warning {
+  background-color: #faa937;
+}
+.label-warning[href]:hover,
+.label-warning[href]:focus {
+  background-color: #f89306;
+}
+.label-danger {
+  background-color: #d84a38;
+}
+.label-danger[href]:hover,
+.label-danger[href]:focus {
+  background-color: #b93524;
+}

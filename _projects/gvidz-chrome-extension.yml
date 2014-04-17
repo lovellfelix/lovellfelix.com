@@ -1,0 +1,35 @@
+layout: project
+published: true
+graduated: true
+
+name: G-VIDZ.COM Chrome Extension
+description: "A Quickway to find Grenadian Videos on Chrome"
+snippet: "A Quickway to find Grenadian Videos on Chrome"
+
+additionalFeatures: 
+techUsed: [JAVASCRIPT, JSON]
+
+demo:
+  url: 
+  title: N/A :( 
+  source_url: 
+  source_title: N/A :( 
+
+
+screenshot: [images/screenshot/screenshot/gvidzce.promo_img.png, images/screenshot/screenshot/gvidzce.s2.png, images/screenshot/screenshot/gvidzce.s3.png]
+
+thumbnail:
+  url: /images/screenshot/gvidzce.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+promo_img:
+  url: /images/screenshot/gvidzce.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+endorsements:
+-
+  body:
+  from: Endorser Name
+  role: Project Manager

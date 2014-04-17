@@ -1,0 +1,93 @@
+- company: Web Fire Communication
+  location: Wichita Falls, TX
+  position:
+      - name        : System Administrator
+        date        : Oct 11 - Present
+        description :
+        award:
+        task:
+          - ● Created web hosting accounts on cPanel
+          - ● Set-up virtual hosting within Apache, and configured Postfix/Sendmail Server
+          - ● Performed basic installation of 3rd Party Content Management Application
+          - ● Set-up webspace virtual hard disk storage via Vembu
+          - ● Monitored customer Vembu backups to ensure successful completion
+          - ● Provided various system logs and Reports
+          - ● Periodically restored backup for clients
+          - ● Identified hardware problems and scheduled system maintenance
+          - ● Identified Apache, FTP and MySQL issues
+          - ● Added and configured basic PHP and Apache modules
+          - ● Performed kernel upgrades and System Backups
+          - ● Provided technical support
+      - name        : Technician
+        date        : Jan 10 – Sept 11
+        description :
+        award:
+           - Awarded, Web Fire Communications, Inc. 2010 Employee of the Year
+        task:
+          - ● Provided clients with various technical services pertaining to networks, remote access,
+            communications and Internet solutions
+          - ● Proactively identified challenges and provided technological recommendations and
+            strategies
+          - ● Evaluated, recommended, and implemented new technologies and updated existing
+            infrastructure to ensure optimal network performance
+          - ● Developed and maintained company website
+          - ● Managed clients web hosting accounts, and provide technical support
+          - ● Provided remote and on site Internet, and Email support
+          - ● Configured and installed DSL, T1 and Dialup connections
+          - ● Repaired computers with hardware and software related problems
+          - ● Performed Virus and Spyware removal
+      - name        : Intern
+        date        : Jun 09 – Dec 09
+        description :
+        award:
+        task:
+          - ● Provided helpdesk technical support
+          - ● Configured DSL and Dialup connections
+          - ● Repaired computers with hardware and software related problems
+          - ● Repaired computers with hardware and software related problems
+          - ● Performed Virus and Spyware removal
+
+- company: GOOGLE
+  location: California, LA
+  position:
+      - name        : Chrome Pilot - Chrome OS Notebook Pilot program
+        date        : Feb 11 – Jun 11
+        description :
+        award:
+        task:
+          - ● Found bugs/errors related to web pages rendered by the Chrome OS
+          - ● Submitted detail report to Google outlining bugs/errors discovered
+          - ● Suggested Features to improve the Chrome OS user Experience
+
+- company: SPICE JAMZ RADIO
+  location: Brooklyn, NY
+  position:
+      - name        : Co-Founder / Webmaster
+        date        : Jul 10 – Oct 12
+        description :
+        award:
+        task:
+          - ● Installed and administered CentOS Server responsible for hosting website, email accounts and DNS
+          - ● Configured Apache virtual host, Postfix Mail Server, and Managed DNS with BIND
+          - ● Built secure ftp transmission to web server using PureFTPD as a gateway
+          - ● Configured and maintained Shoutcast streaming audio server and Red5 streaming
+            video server
+          - ● Monitored server and site technical performance
+          - ● Designed and maintained the company website, including graphics, animation and
+            functionality
+          - ● Performed navigation and browser compatibility, and quality-control for third party
+            content
+          - ● Implemented search engine optimization strategies
+          - ● Built, debugged and deployed company’s Android application
+          - ● Worked with the Marketing officer to set and ensure marketing campaigns achieve budgeted commercial targets
+          - ● Circulated efficient and accurate reporting, detailing results of each web marketing
+            campaign and possible improvement.
+          - ● Advised Marketing officer on the improvement, results, competition and new direction
+            in technology to assist with marketing of the brand.
+
+
+
+
+
+
+

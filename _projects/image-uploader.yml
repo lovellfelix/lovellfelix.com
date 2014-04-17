@@ -1,0 +1,34 @@
+layout: project
+published: true
+graduated: true
+
+name: PHP Image uploader and viewer
+description: "Clean and simple image uploader and viewer built with Twitter Bootstrap, Java script and PHP"
+snippet: "Clean and simple image uploader and viewer built with Twitter Bootstrap, Java script and PHP"
+
+additionalFeatures: 
+techUsed: [PHP, TWITTER BOOTSTRAP]
+
+demo:
+  url: http://demo.lovellfelix.com/iul 
+  title: Demo
+  source_url: 
+  source_title: N/A :( 
+
+screenshot: [images/screenshot/screenshot/iul.s1.png, images/screenshot/screenshot/iul.s2.png, images/screenshot/screenshot/iul.s3.png]
+
+thumbnail:
+  url: /images/screenshot/iul.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+promo_img:
+  url: /images/screenshot/iul.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+endorsements:
+-
+  body:
+  from: 
+  role: 

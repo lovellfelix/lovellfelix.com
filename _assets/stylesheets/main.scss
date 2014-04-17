@@ -1,0 +1,29 @@
+/* CONFIGURATION */
+
+/* Bodytext font */
+$font: "PT Sans", sans-serif;
+
+/* Font for headings */
+$fontheadings: "PT Sans", sans-serif;
+
+/* Text colors */
+$text: #21272d;
+$textmuted: #848484;
+$accent: #5ba3e0;
+
+
+/* IMPORT CSS FILES */
+@import "bootstrap";
+@import "base";
+@import "nav";
+@import "article";
+@import "dropdown";
+@import "icons";
+@import "syntax";
+@import "responsive";
+@import "buttons";
+@import "labels";
+@import "glyphicons";
+@import "resume";
+@import "testimonials";
+@import "messagebox";

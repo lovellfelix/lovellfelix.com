@@ -1,0 +1,80 @@
+
+#resume {
+  margin: 75px 0 0;
+}
+
+.citystate {
+  /*display: none;*/
+  font-weight: 200;
+  color: #555;
+}
+
+th {
+  padding-right: .75em;
+  padding-bottom: 5px;
+  border-right: solid 2px #ddd;
+  color: #999;
+  text-align: right;
+  font-weight: 400;
+}
+
+td {
+  padding-left: .75em;
+  letter-spacing: -.04em;
+}
+
+.dates {
+  font-weight: lighter;
+}
+
+
+.position strong {
+  color: #555;
+  padding-bottom: 10px;
+}
+
+#summary,#skills {
+  margin-bottom: 25px;
+}
+
+#summary ol {
+  /*padding-left: 15px;*/;
+}
+
+#summary ol li {
+  line-height: 1.8em;
+  font-size: 1.2em;
+  margin-left: 0;
+}
+
+@media (max-width: 767px) {
+  #resume {
+    margin: 25px 0;
+  }
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.style-eight {
+  padding: 0;
+  border: none;
+  border-top-width: thick;
+  border-top-style: double;
+  border-top-color: #333;
+  color: #333;
+  text-align: center;
+  margin-top: 2px;
+}
+
+/* Gradient color1 - color2 - color1 */
+
+hr.style-one {
+  border: 0;
+  height: 1px;
+  margin-bottom: 2px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}

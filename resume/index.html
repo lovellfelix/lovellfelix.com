@@ -1,0 +1,79 @@
+---
+layout: resume_base
+title: Resume
+---
+    <div class="container">
+			<div class="row" id="resume">
+
+				<div class="col-sm-0" id="logo">
+
+
+				</div>
+
+  			<div class="col-sm-12">
+
+                <h2 class="text-center"><strong>Lovell Felix</strong></h2>
+
+                <hr class="style-one">
+                <span class="text-center">15636 El Estado Dr ● Dallas TX  75248 ● (347) 994-0314 ● lovell.felix@gmail.com</span>
+
+                <hr class="style-eight">
+
+    		<div id="summary">
+    			
+    			<p>Results oriented <b>System Administrator / Web Developer</b> with Strong interpersonal,
+          communicative, and organizational skills experienced in identifying and designing effective solutions to meet current needs and future expectations of business, and delivering exceptional customer service. Areas of expertise:</p>
+
+          <div class="row">
+              <div class="col-xs-6 col-md-4">
+              System Design & Development <br />
+              Project Management <br />
+              Help Desk Support <br />
+              </div>
+              <div class="col-xs-6 col-md-4">
+              Web & Mobile Application Development
+              Hardware/Software Troubleshooting
+              Network Analysis & Administration
+              </div>
+              <div class="col-xs-6 col-md-4">
+              Web Hosting
+              Remote Backup
+              Research & Development
+              </div>
+          </div>
+    		</div>
+
+  			<div class='position'>
+                    {% for experience in site.data.experience %}
+                <h3>{{ experience.company }}  — <small class='citystate'>{{ experience.location }}</small></h3>
+
+
+                <ul class="list-unstyled">
+
+                {% for positions in experience.position %}
+                    <li> <strong>{{ positions.name }}</strong>, {{ positions.date }}</li>
+
+                    <ul class="list-unstyled">
+                    <li>{{ positions.task | join:'<br /> </li>' }}
+                    </ul>
+                {% endfor %}
+                </ul>
+
+                {% endfor %}
+
+                <hr />
+                <table id="skills">
+                    <tr><th>Core</th><td>Your, primary, skill, go, here, here, here</td></tr>
+                    <tr><th>Dabble</th><td>Things, you, aspire, to, work, on, go, here</td></tr>
+                    <tr><th>OS</th><td>Ubuntu, Debian, Centos, OSX</td></tr>
+                </table>
+
+                <hr />
+  		</div>
+
+  	</div>
+
+    </div>
+
+  </body>
+</html>

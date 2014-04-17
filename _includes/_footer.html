@@ -1,0 +1,40 @@
+
+
+<div id="footer">
+
+<footer class="site-footer">
+    <div class="container">
+        
+        <nav>
+        &copy; {{ site.time | date: "%Y" }}
+            <a href="{{ site.inc.url }}">{{ site.inc.company }}</a>
+
+            <span class="visible-xs">&middot;
+                <hr class="soften">
+            <a href="{{ site.inc.blog_link }}">Blog</a> &middot;
+            {% if site.inc.labs_link %}<a href="{{ site.inc.labs_link }}">Labs</a> &middot; {% endif %}
+            {% if site.inc.testimonials_link %}<a href="{{ site.inc.testimonials_link }}">Testimonials</a>{% endif %}
+            {% if site.inc.resume_link %}<a href="{{ site.inc.resume_link }}">Resume</a>{% endif %}
+            </span>
+        </nav>
+
+        <nav class="social">
+            {% if site.inc.twitter %}
+            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            {% endif %}
+            {% if site.inc.facebook %}
+            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
+            {% endif %}
+            <a href="/feed.xml" title="RSS Feed">
+                <i class="icon icon-rss black"></i>
+            </a>
+        </nav>
+    </div>
+</footer>
+
+</div>
+
+{% include _scripts.html %}
+
+</body>
+</html>

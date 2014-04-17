@@ -1,0 +1,34 @@
+layout: project
+published: true
+graduated: true
+
+name: Database Installer
+description: Website Database Installer Wizard
+snippet: "Website Database Installer Wizard. Easily integrate a database installation setup wizard to existing project"
+
+additionalFeatures: [Clean customizable UI built with Twitter Bootstrap, Simple two Step process, Check for exisiting installation]
+techUsed: [php, mysql, Twitter, Bootstrap]
+
+demo:
+  url: http://demo.lovellfelix.com/dbi
+  title: Demo
+  source_url: http://github.com/lovellfelix/db-installer
+  source_title: code
+
+screenshot: [img/screenshot/dbi.s1.png, img/screenshot/dbi.s2.png, img/screenshot/dbi.s3.png]
+
+thumbnail:
+  url: /images/screenshot/dbi.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+promo_img:
+  url: /images/screenshot/dbi.promo_img.png
+  title: Sample Project
+  alt: Sample Project
+
+endorsements:
+-
+  body:
+  from: Endorser Name
+  role: Project Manager
