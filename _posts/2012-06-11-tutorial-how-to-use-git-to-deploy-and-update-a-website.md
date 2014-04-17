@@ -14,9 +14,7 @@ author:
 tumblr_url: http://blog.lovellfelix.com/post/24913411212/tutorial-how-to-use-git-to-deploy-and-update-a-website
 
 ---
-This tutorial outline the steps I took to simultaneously push to my remote Git Server, and update my website with one command.
-
-<strong>“git push web”</strong>
+This tutorial outline the steps I took to simultaneously push to my remote Git Server, and update my website with one command. <strong>“git push web”</strong>
 
 <div class="alert-message alert-message-danger">
   <h4>The Problem</h4>
@@ -26,15 +24,7 @@ I routinely push the code commits I make on my website to a remote server that s
 </div>
 
 
- 
-
-At the end f thpush into a remote repository that has a detached work tree, and a post-receive hook that runs “git checkout -f”
-
-
-
-
 <strong>The local repository</strong>
-
 
 It doesn’t really matter how the local repository is set up, but for the sake of argument, let’s suppose you’re starting one from scratch.
 
@@ -46,21 +36,24 @@ git commit -q -m "The humble beginnings of my web site."
 
 {% endhighlight %}
 
+
 <strong>The remote repository</strong>
+
 I assume that the web site will live on a server to which you have ssh access, and that things are set up so that you can ssh to it without having to type a password.
 
 On the server, we create a new repository to mirror the local one.
 
 {% highlight bash %}
+
+cd /home/project/
 mkdir website.git && cd website.git
-
 git init --bare --shared
-
+$ Initialized empty Git repository in /home/project/website.git/
 
 {% endhighlight %}
-<code>//Initialized empty Git repository in /home/project/website.git/</code>
 
-Then we define (and enable) a post-receive hook that checks out the latest tree into the web server’s DocumentRoot (this directory must exist; Git will not create it for you):
+Then we define (and enable) a post-receive hook that checks out the latest tree into the web server’s DocumentRoot.
+
 
 {% highlight bash %}
 mkdir /var/www/www.example.org
@@ -77,3 +70,7 @@ Back on the workstation, we define a name for the remote mirror, and then mirror
 git remote add web ssh://user@server.example.org/home/project/website.git
 git push web master
 {% endhighlight %}
+
+Now we can push to our remote repository and the webserver DocumentRoot with one command. <strong>[git push web]</strong> 
+
+Easy Right? 
