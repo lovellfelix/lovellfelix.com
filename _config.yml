@@ -6,9 +6,10 @@ inc:
   cover_image:  blog-cover.png
   logo:         logo.png
   blog_link: /blog/
-  
+
   # Company information
   company:      Lovell Felix
+  landing_page_title: "Geek, Google Fanboy, Tech News Junkie, Entrepreneur - Drinker of tea :)"
   url:          http://lovellfelix.com/
   facebook:     lovell.felix
   twitter:      lovellfelix
@@ -26,38 +27,38 @@ inc:
   labs_cover_image:  lab-cover.jpg
   labs_link: /labs/
   tagline:      " "
-  
+
   # Testimonials
   testimonials_title: Testimonials
   testimonials_subtitle: What people are saying
   testimonials_cover_image:  testimonials-cover.jpg
   testimonials_link: /testimonials/
 
-  
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  false
-  
+
   # Sharing settings
   sharing:
     twitter:    false
     facebook:   false
     gplus:      false
     hn:         false
-    
-  
- # Analytics     
+
+
+ # Analytics
   analytics:
-    google: 
+    google:
       # eg. 'UA-123-12'
-      id:       false
-      
-      
+      id:       UA-18508266-1
+
+
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'PT+Sans:400,700'
-  
+
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 url:         http://lovellfelix.com
@@ -142,4 +143,3 @@ assets:
   cachebust: none
   cache: false
   gzip: [ text/css, application/javascript ]
-
