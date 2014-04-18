@@ -68,7 +68,7 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     [Gemfile, Gemfile.lock, Rakefile, bk]
+exclude:     [Gemfile, Gemfile.lock, Rakefile, bk, psd]
 timezone:    nil
 
 # Show future posts
