@@ -19,7 +19,8 @@ inc:
 
   #Resume
   resume_title: "Lovell Felix - Resume"
-  resume_link: /resume/
+  #resume_link: /resume/
+  resume_link: http://www.linkedin.com/in/lovellfelix
 
   # Labs Information
   labs_title: Labs
