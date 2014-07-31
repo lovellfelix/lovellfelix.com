@@ -111,7 +111,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-assets
-  maruku
+  kramdown
   rake
   sass
   uglifier
