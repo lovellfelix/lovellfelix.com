@@ -13,12 +13,13 @@ author:
 
 tumblr_url: http://blog.lovellfelix.com/post/25463607324/tutorial-facebook-style-time-stamp-using-php
 ---
-The function returns the difference between two Dates as a human string for use in the browser. For instance, the values returned are seconds ago, 50 minutes ago, 7 hours ago, a day ago, weeks ago, years ago, and so on.
+This function returns the difference between two dates in a human friendly string format. For instance, the values returned are seconds ago, 50 minutes ago, 7 hours ago, a day ago, weeks ago, years ago, and so on. It's similar to the approach used by many social media websites.
 
-Syntax
-$time = strtotime(YYYY-MM-DD HH:MM:SS)
+<img src="/images/posts/fb_time.png">
 
-Example
+Syntax <strong>$time = strtotime(YYYY-MM-DD HH:MM:SS)</strong>
+
+Example:
 
 {% highlight scss %}
 
@@ -37,4 +38,5 @@ return $numberOfUnits.'' ''.$text.(($numberOfUnits>1)?''s'':'''');
 
 {% endhighlight %}
 
-The complete project can be download from my Github Repository
+<br />
+The complete project can be download from my <a href="https://github.com/lovellfelix/Time-Ago">Github Repository</a>
