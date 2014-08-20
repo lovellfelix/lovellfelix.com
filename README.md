@@ -19,7 +19,7 @@ rake site:publish
 * Add list of opensource repositories
 * Implement contact form
 * Revamp project page
-* Tag release versions
+~~* Tag release versions~~
 * Add Documentation
 
 ## Copyright and license
