@@ -82,9 +82,6 @@ permalink: /blog/:title/
 paginate_path: '/blog/page:num'
 paginate: 5
 
-markdown: rdiscount
-markdown_ext:  markdown,mkd,mkdn,md
-textile_ext:   textile
 
 excerpt_separator: "<!-- more -->"
 
