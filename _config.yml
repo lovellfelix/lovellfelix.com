@@ -116,6 +116,12 @@ kramdown:
 redcloth:
   hard_breaks: true
 
+page_gen:
+- data: 'projects'
+  template: 'project'
+  name: 'name'
+  dir: 'people'
+
 #
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
 #

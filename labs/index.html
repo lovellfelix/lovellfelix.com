@@ -1,0 +1,43 @@
+---
+layout: base
+title: Labs
+---
+
+<div class="labs-cover" style="background-image:url(/images/{{ site.inc.labs_cover_image }});">
+
+    <section>
+        <div class="container">
+            <h1>{{ site.inc.labs_title}}</h1>
+            {% if site.inc.labs_subtitle %}<h3>{{ site.inc.labs_subtitle }}</h3>{% endif %}
+
+        </div>
+    </section>
+</div>
+
+<div class="container">
+<div class="row projects">
+   {% for projects_hash in site.data.projects %}
+    {% assign project = projects_hash[1] %}
+    <div class="col-sm-6 col-md-4">
+        {% if project.promo_img %}
+        <a href="/labs/{{ projects_hash[0] }}">
+            <img src="{{ project.promo_img.url }}" alt=""></a>
+        {% endif %}
+        <div class="desc">
+            <a href="/labs/{{ projects_hash[0] }}">
+                <h5>{{ project.name }}</h5></a>
+            <hr class="soften">
+            <p>{{ project.snippet }}</p>
+            
+        </div>
+    </div>
+   
+   
+    {% endfor %}
+
+</div>
+
+</div>
+
+
+
