@@ -1,0 +1,38 @@
+---
+layout: base
+title: Labs
+---
+
+<div class="labs-cover" style="background-image:url(/images/{{ site.inc.labs_cover_image }});">
+
+    <section>
+        <div class="container">
+            <h1>{{ site.inc.labs_title}}</h1>
+            {% if site.inc.labs_subtitle %}<h3>{{ site.inc.labs_subtitle }}</h3>{% endif %}
+
+        </div>
+    </section>
+</div>
+<div class="container">
+<div class="row projects">
+    {% for project in site.labs limit:12 %}
+    <div class="col-sm-6 col-md-4">
+        {% if project.thumbnail  %}
+        <a href="{{ project.url }}">
+            <img src="{{ project.thumbnail }}" alt=""></a>
+        {% endif %}
+        <div class="desc">
+            <a href="{{ project.url }}">
+                <h5>{{ project.title }}</h5></a>
+            <hr class="soften">
+            <p>{{ project.short-description }}</p>
+
+        </div><!-- /desc -->
+    </div><!-- /span4 -->
+    {% endfor %}
+
+</div>
+
+</div>
+
+
