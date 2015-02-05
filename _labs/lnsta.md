@@ -8,7 +8,7 @@ short-description:  A simple and clean user interface web application designed f
 
 thumbnail: /images/screenshot/lnsta.promo_img.png
 
-screenshot: [/images/screenshot/screenshot/lnsta.s1.png, /images/screenshot/screenshot/lnsta.s2.png, /images/screenshot/screenshot/lnsta.s3.png]
+screenshot: [/images/screenshot/lnsta.s1.png, /images/screenshot/lnsta.s2.png, /images/screenshot/lnsta.s3.png]
 
 
 additionalFeatures: 

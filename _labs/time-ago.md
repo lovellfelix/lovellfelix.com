@@ -8,7 +8,7 @@ short-description: Facebook style time ago php function
 
 thumbnail: /images/screenshot/ta.promo_img.png
 
-screenshot: [/images/screenshot/screenshot/ta.promo_img.png]
+screenshot: []
 
 additionalFeatures:
 techUsed: [PHP]

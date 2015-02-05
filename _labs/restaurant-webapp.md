@@ -3,12 +3,12 @@ layout: project
 published: true
 graduated: true
 
-title: "Restaurant We Application"
+title: "Restaurant Web Application"
 short-description:  A Simple Restaurant Operation Web Application.
 
 thumbnail: /images/screenshot/no_photo_img.png
 
-screenshot: [/images/screenshot/screenshot/rwa.promo_img.png, /images/screenshot/screenshot/rwa.s2.png, /images/screenshot/screenshot/rwa.s3.png]
+screenshot: []
 
 additionalFeatures:
 techUsed: [PHP, MYSQL]

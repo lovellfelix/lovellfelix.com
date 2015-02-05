@@ -8,7 +8,7 @@ short-description: "Tumblr theme built with Twitter bootstrap. Built with three 
 
 thumbnail: /images/screenshot/tbt.promo_img.png
 
-screenshot: [/images/screenshot/screenshot/tbt.promo_img.png, /images/screenshot/screenshot/tbt.s2.png, /images/screenshot/screenshot/tbt.s3.png]
+screenshot: []
 
 additionalFeatures:
 techUsed: [TUMBLR, TWITTER BOOTSTRAP]

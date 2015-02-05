@@ -8,7 +8,7 @@ short-description: "Dynamically create xml file using PHP and MySQL"
 
 thumbnail: /images/screenshot/no_photo_img.png
 
-screenshot: [/images/screenshot/screenshot/xml.promo_img.png, /images/screenshot/screenshot/xml.s2.png, /images/screenshot/screenshot/xml.s3.png]
+screenshot: []
 
 additionalFeatures:
 techUsed: [PHP, MYSQL, XML]

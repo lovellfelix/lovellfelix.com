@@ -8,7 +8,7 @@ short-description: "An easy way to listen popular Grenadian Radio Stations, and 
 
 thumbnail: /images/screenshot/gb.promo_img.png
 
-screenshot: [/images/screenshot/gb.promo_img.png, /images/screenshot/gb.promo_img.png, /images/screenshot/gb.promo_img.png] 
+screenshot: [] 
 
 additionalFeatures: 
 techUsed: [Java, Ruby]

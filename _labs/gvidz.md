@@ -8,7 +8,7 @@ short-description: "G-VIDZ.COM is the number one source for Grenadian videos."
 
 thumbnail: /images/screenshot/gvidz.promo_img.png
 
-screenshot: [/images/screenshot/screenshot/gvidz.promo_img.png, /images/screenshot/screenshot/gvidz.s2.png, /images/screenshot/screenshot/gvidz.s3.png]
+screenshot: [/images/screenshot/gvidz.s1.png, /images/screenshot/gvidz.s2.png, /images/screenshot/gvidz.s3.png]
 
 additionalFeatures: 
 techUsed: [PHP, MYSQL, SMARTY, JQUERY, TWITTER BOOTSTAP]

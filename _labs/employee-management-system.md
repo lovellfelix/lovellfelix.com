@@ -8,7 +8,7 @@ short-description: "Employee Management System (EMS) - User Profile, Contact Inf
 
 thumbnail: /images/screenshot/ems.promo_img.png
 
-screenshot: [/images/screenshot/ems.s1.png, /images/screenshot/ems.s2.png, /images/screenshot/ems.s3.png]
+screenshot: []
 
 additionalFeatures: [Clean customizable UI built with Twitter Bootstrap, Simple two Step process, Check for exisiting installation]
 techUsed: [PHP, MYSQL, Twitter Bootstrap]

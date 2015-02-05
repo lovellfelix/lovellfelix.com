@@ -8,8 +8,7 @@ short-description: "A Quickway to find Grenadian Videos on Chrome."
 
 thumbnail: /images/screenshot/gvidzce.promo_img.png
 
-screenshot: [/images/screenshot/screenshot/gvidzce.promo_img.png, /images/screenshot/screenshot/gvidzce.s2.png, /images/screenshot/screenshot/gvidzce.s3.png]
-
+screenshot: []
 
 additionalFeatures: 
 techUsed: [JAVASCRIPT, JSON]

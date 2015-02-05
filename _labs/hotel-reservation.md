@@ -8,7 +8,7 @@ short-description: A simple reservation application written in VB that fascilita
 
 thumbnail: /images/screenshot/hr.promo_img.png
 
-screenshot: [/images/screenshot/screenshot/hr.promo_img.png, /images/screenshot/screenshot/hr.s2.png, /images/screenshot/screenshot/hr.s3.png]
+screenshot: []
 
 additionalFeatures: 
 techUsed: [VISUAL BASIC, MS ACESS, XML]

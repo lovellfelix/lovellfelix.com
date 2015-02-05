@@ -8,7 +8,7 @@ short-description: Clean and simple image uploader and viewer built with Twitter
 
 thumbnail: /images/screenshot/iul.promo_img.png
 
-screenshot: [images/screenshot/screenshot/iul.s1.png, images/screenshot/screenshot/iul.s2.png, images/screenshot/screenshot/iul.s3.png]
+screenshot: [/images/screenshot/iul.s1.png, /images/screenshot/iul.s2.png, /images/screenshot/iul.s3.png]
 
 additionalFeatures: 
 techUsed: [PHP, TWITTER BOOTSTRAP]
