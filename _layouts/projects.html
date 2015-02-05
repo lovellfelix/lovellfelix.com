@@ -4,34 +4,38 @@ title: Labs
 ---
 <div class="labs-cover" style="background-image:url(/images/{{ site.inc.labs_cover_image }});">
 
-    <section>
-        <div class="container">
-            <h1>{{ site.inc.labs_title}}</h1>
-            {% if site.inc.labs_subtitle %}<h3>{{ site.inc.labs_subtitle }}</h3>{% endif %}
+  <section>
+    <div class="container">
+      <h1>{{ site.inc.labs_title}}</h1>
+      {% if site.inc.labs_subtitle %}
+      <h3>{{ site.inc.labs_subtitle }}</h3>{% endif %}
 
-        </div>
-    </section>
+    </div>
+  </section>
 </div>
-
 
 <div class="container">
-<div class="row projects">
+  <div class="row projects">
     {% for project in page.projects %}
     <div class="col-sm-6 col-md-4">
-        {% if project[1].promo_img %}
+      {% if project[1].promo_img %}
+      <a href="/labs/{{ project[0] }}">
+        <img src="{{ project[1].promo_img.url }}" alt="">
+      </a>
+      {% endif %}
+      <div class="desc">
         <a href="/labs/{{ project[0] }}">
-            <img src="{{ project[1].promo_img.url }}" alt=""></a>
-        {% endif %}
-        <div class="desc">
-            <a href="/labs/{{ project[0] }}">
-                <h5>{{ project[1].name }}</h5></a>
-            <hr class="soften">
-            <p>{{ project[1].snippet }}</p>
+          <h5>{{ project[1].name }}</h5>
+        </a>
+        <hr class="soften">
+        <p>{{ project[1].snippet }}</p>
 
-        </div><!-- /desc -->
-    </div><!-- /span4 -->
+      </div>
+      <!-- /desc -->
+    </div>
+    <!-- /span4 -->
     {% endfor %}
 
-</div>
+  </div>
 
 </div>
