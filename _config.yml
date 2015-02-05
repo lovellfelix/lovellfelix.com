@@ -97,22 +97,9 @@ port:        4000
 baseurl:     /
 lsi:         false
 
-
 #
-# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
-#
-assets:
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _assets/stylesheets
+  style:            :compressed
 
-  dirname: assets
-  baseurl: /assets/
-  sources:
-    - _assets
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/images
-    - _assets/fonts
-  js_compressor: uglifier
-  css_compressor: sass
-  cachebust: none
-  cache: false
-  gzip: [ text/css, application/javascript ]
