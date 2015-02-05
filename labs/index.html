@@ -13,31 +13,26 @@ title: Labs
         </div>
     </section>
 </div>
-
 <div class="container">
 <div class="row projects">
-   {% for projects_hash in site.data.projects %}
-    {% assign project = projects_hash[1] %}
+    {% for project in site.labs limit:12 %}
     <div class="col-sm-6 col-md-4">
-        {% if project.promo_img %}
-        <a href="/labs/{{ projects_hash[0] }}">
-            <img src="{{ project.promo_img.url }}" alt=""></a>
+        {% if project.thumbnail  %}
+        <a href="{{ project.url }}">
+            <img src="{{ project.thumbnail }}" alt=""></a>
         {% endif %}
         <div class="desc">
-            <a href="/labs/{{ projects_hash[0] }}">
-                <h5>{{ project.name }}</h5></a>
+            <a href="{{ project.url }}">
+                <h5>{{ project.title }}</h5></a>
             <hr class="soften">
-            <p>{{ project.snippet }}</p>
-            
-        </div>
-    </div>
-   
-   
+            <p>{{ project.short-description }}</p>
+
+        </div><!-- /desc -->
+    </div><!-- /span4 -->
     {% endfor %}
 
 </div>
 
 </div>
-
 
 
