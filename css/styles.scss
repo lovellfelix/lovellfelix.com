@@ -1,0 +1,33 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+/* CONFIGURATION */
+
+/* Bodytext font */
+$font: "PT Sans", sans-serif;
+
+/* Font for headings */
+$fontheadings: "PT Sans", sans-serif;
+
+/* Text colors */
+$text: #21272d;
+$textmuted: #848484;
+$accent: #5ba3e0;
+
+
+/* IMPORT CSS FILES */
+@import "bootstrap";
+@import "_base";
+@import "_nav";
+@import "_article";
+@import "_dropdown";
+@import "_icons";
+@import "_syntax";
+@import "_responsive";
+@import "_buttons";
+@import "_labels";
+@import "_glyphicons";
+@import "_resume";
+@import "_testimonials";
+@import "_messagebox";
