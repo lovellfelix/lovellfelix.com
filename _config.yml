@@ -107,7 +107,7 @@ highlighter: pygments
 relative_permalinks: true
 permalink: /blog/:title/
 paginate_path: '/blog/page:num'
-paginate: 5
+paginate: 8
 
 
 excerpt_separator: "<!-- more -->"
