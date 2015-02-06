@@ -11,15 +11,15 @@ The initial source code was obtained from [kippt](https://github.com/kippt) [Jek
 ```
 git checkout -b gh-pages
 git push origin gh-pages
-
 ```
-4. And that's it! Simple right?
+
+And that's it! Simple right?
 
 ##Screenshots
 
-![Modern layout](https://raw.githubusercontent.com/lovellfelix/lovellfelix.com/master/screenshots/Screenshots_animated.gif)
+![Modern layout](https://raw.githubusercontent.com/lovellfelix/lovellfelix.com/gh-pages/screenshots/Screenshots_animated.gif)
 
-![Responsive layout](https://raw.githubusercontent.com/lovellfelix/lovellfelix.com/master/screenshots/Screenshots_animated_res.gif)
+![Responsive layout](https://raw.githubusercontent.com/lovellfelix/lovellfelix.com/gh-pages/screenshots/Screenshots_animated_res.gif)
 
 #TODO
 
