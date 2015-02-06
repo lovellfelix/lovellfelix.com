@@ -17,7 +17,7 @@ tumblr_url: http://blog.lovellfelix.com/post/32691308177/using-git-to-deploy-and
 Previously I wrote <a href="/blog/tutorial-how-to-use-git-to-deploy-and-update-a-website/">Tutorial: How to use Git to deploy and update a website Pt. 1</a>, I was able to simultaneous push my changes seamlessly from my local machine to my git server, and web server.
 
 It worked great, and reduced my deployment time significantly. Now I am taking it a step further. I want to push two different branches to different locations on my remote server.
-There are two branches on my local machine <b>Master</b>, and <b>Beta</b>.
+There are two branches on my local machine <b>Master</b>, and <b>Beta</b>.<!-- more -->
 
 With this twist, I will be able to push the <b>Master branch</b> to <u>http://example.com</u>, and the <b>Beta branch</b> to <u>http://beta.example.com</u>. Let’s start by creating the <b>Beta Branch</b> from your existing directory on the local machine.
 

@@ -21,12 +21,11 @@ La Nerde: In Pursuit of Excellencelanerde:
 
 We have become a people of mediocrity.
 
-We have chosen to accept things as they are, to limit our aspirations, to douse the dreams of others. 
+We have chosen to accept things as they are, to limit our aspirations, to douse the dreams of others. <!-- more -->
 
 
 Somehow we have convinced ourselves that we are not deserving of excellence, that we need not try to be the best at what we do.
 This complacency and self-perpetuated myopia has dire consequences. Because we do not demand the best, we have become the recipients of a sub-par existence. 
-
 
 Do we not believe that we are most deserving of a life of excellence? 
 

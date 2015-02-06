@@ -25,7 +25,7 @@ I routinely push the changes I made on my website to a remote server that host m
 </p>
 </div>
 
-
+<!-- more -->
 <strong>The local repository</strong>
 
 It doesn’t really matter how the local repository is set up, but for the sake of argument, let’s suppose you’re starting one from scratch.

@@ -8,7 +8,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.6)
     blankslate (2.1.2.4)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -21,8 +20,6 @@ GEM
     colorator (0.1)
     execjs (2.2.2)
     fast-stemmer (1.0.2)
-    fastimage (1.6.6)
-      addressable (~> 2.3, >= 2.3.5)
     ffi (1.9.6)
     gemoji (2.1.0)
     github-pages (33)
@@ -46,7 +43,6 @@ GEM
     github-pages-health-check (0.2.1)
       net-dns (~> 0.6)
       public_suffix (~> 1.4)
-    hike (1.2.3)
     hitimes (1.2.2)
     html-pipeline (1.9.0)
       activesupport (>= 2)
@@ -67,13 +63,6 @@ GEM
       redcarpet (~> 3.1)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
-    jekyll-assets (0.13.0)
-      fastimage (~> 1.6)
-      jekyll (~> 2.0)
-      sass (~> 3.2)
-      sprockets (~> 2.10)
-      sprockets-helpers
-      sprockets-sass
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
     jekyll-gist (1.1.0)
@@ -103,7 +92,6 @@ GEM
     mercenary (0.3.5)
     mini_portile (0.6.2)
     minitest (5.5.1)
-    multi_json (1.10.1)
     net-dns (0.8.0)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
@@ -114,8 +102,6 @@ GEM
     pygments.rb (0.6.1)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
-    rack (1.6.0)
-    rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -123,28 +109,14 @@ GEM
     redcarpet (3.1.2)
     safe_yaml (1.0.4)
     sass (3.4.11)
-    sprockets (2.12.3)
-      hike (~> 1.2)
-      multi_json (~> 1.0)
-      rack (~> 1.0)
-      tilt (~> 1.1, != 1.3.0)
-    sprockets-helpers (1.1.0)
-      sprockets (~> 2.0)
-    sprockets-sass (1.3.1)
-      sprockets (~> 2.0)
-      tilt (~> 1.1)
     terminal-table (1.4.5)
     thread_safe (0.3.4)
-    tilt (1.4.1)
     timers (4.0.1)
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (2.7.0)
-      execjs (>= 0.3.0)
-      json (>= 1.8.0)
     yajl-ruby (1.2.1)
 
 PLATFORMS
@@ -152,7 +124,4 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-assets
-  rake
   sass
-  uglifier
