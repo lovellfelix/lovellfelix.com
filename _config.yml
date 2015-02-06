@@ -75,6 +75,9 @@ layouts:     ./_layouts
 include:     ['.htaccess']
 exclude:     [Gemfile, Gemfile.lock, Rakefile, bk, psd, screenshots]
 
+markdown:      maruku
+markdown_ext:  markdown,mkd,mkdn,md
+textile_ext:   textile
 
 # Show future posts
 future:      false
@@ -102,4 +105,3 @@ lsi:         false
 sass:
   sass_dir:          _assets/stylesheets
   style:            :compressed
-
