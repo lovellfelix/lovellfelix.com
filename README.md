@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/lovellfelix/lovellfelix.com.svg?branch=gh-pages)](https://travis-ci.org/lovellfelix/lovellfelix.com)
 
 My Personal website [lovellfelix.com](http://lovellfelix.com) built using Jekyll. It showcase some of my projects, testimonials written about me, and tutorials/blogs about things I care about well some of them :)
 
