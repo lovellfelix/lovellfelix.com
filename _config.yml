@@ -67,7 +67,7 @@ collections:
     output: true
     permalink: /labs/:path/
 
-url:         http://lovellfelix.com
+url:         https://lovellfelix.com
 source:      .
 destination: ./_site
 plugins:     ./_plugins
