@@ -18,7 +18,7 @@ This function returns the difference between two dates in a human friendly strin
 <img src="/images/posts/fb_time.png">
 
 Syntax <strong>$time = strtotime(YYYY-MM-DD HH:MM:SS)</strong>
-
+<!-- more -->
 Example:
 
 {% highlight scss %}

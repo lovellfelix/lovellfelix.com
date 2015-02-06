@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Featured on Grenada 40 under 40 list for Technology.'
+title: 'Featured on Grenada 40 under 40 list for Technology'
 date: '2014-03-03T23:31:00-07:00'
 tags:
 
@@ -12,7 +12,7 @@ author:
   image: https://lh3.googleusercontent.com/-Ubq3pEfgeLk/AAAAAAAAAAI/AAAAAAAAOvs/nGutWDQ5OGc/s120-c/photo.jpg.png
 ---
 
-A few months ago, I received an anonymous <a href="https://twitter.com/lovellfelix/status/459923983723687936">message</a> on my tumblr blog about Grenada 40 project. The message didn't have much details or contact information to get in touch with the sender. I thought it was one of those Facebook "most liked" competition where you get people to vote for you or your projects. At the time, I was swamped with work, projects, and classes. I really didn't have free time to participate, so I didn't made any attempt to follow up with them.
+A few months ago, I received an anonymous <a href="https://twitter.com/lovellfelix/status/459923983723687936">message</a> on my tumblr blog about Grenada 40 project. The message didn't have much details or contact information to get in touch with the sender. I thought it was one of those Facebook "most liked" competition where you get people to vote for you or your projects. At the time, I was swamped with work, projects, and classes. I really didn't have free time to participate, so I didn't made any attempt to follow up with them.<!-- more -->
 
 Nevertheless, I continued working on my projects and enhancing my online brand. It's one of my daily routine I developed over the past few years. I also work in silence, and rarely post on my social media accounts the things I'm working on. I think it's better to work hard in silence.
 

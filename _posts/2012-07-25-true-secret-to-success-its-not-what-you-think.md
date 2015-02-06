@@ -17,7 +17,7 @@ tumblr_url: http://blog.lovellfelix.com/post/27978002779/true-secret-to-success-
 
 If you’re not exercising this emotional muscle, you’re probably setting yourself up for failure.
 I’m utterly convinced that the key to lifelong success is the regular exercise of a single emotional muscle: gratitude.
-People who approach life with a sense of gratitude are constantly aware of what’s wonderful in their life. Because they enjoy the fruits of their successes, they seek out more success. And when things don’t go as planned, people who are grateful can put failure into perspective.
+People who approach life with a sense of gratitude are constantly aware of what’s wonderful in their life. Because they enjoy the fruits of their successes, they seek out more success. And when things don’t go as planned, people who are grateful can put failure into perspective.<!-- more -->
 
 By contrast, people who lack gratitude are never truly happy. If they succeed at a task, they don’t enjoy it. For them, a string of successes is like trying to fill a bucket with a huge leak in the bottom. And failure invariably makes them bitter, angry, and discouraged.
 Therefore, if you want to be successful, you need to feel more gratitude. Fortunately, gratitude, like most emotions, is like a muscle: The more you use it, the stronger and more resilient it becomes.

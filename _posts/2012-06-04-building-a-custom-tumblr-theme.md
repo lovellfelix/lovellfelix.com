@@ -17,7 +17,7 @@ author:
 To start, click the name of your blog at the top of the Dashboard, click the ”Customize appearance” button on the right side of the page. Click the ”Edit HTML” button under the theme thumbnail to access your current theme’s HTML code.
 Tumblr has two types of special operators used to render content in your HTML.
 Variables are used to insert dynamic data like your blog’s title or description:
-
+<!-- more -->
 Html Head
 As always in Html, there are several pieces of information you are going to want to include within the head of your html document, and Tumblr does not let us down. It provides us with several variables that can be deployed with great ease.
 
