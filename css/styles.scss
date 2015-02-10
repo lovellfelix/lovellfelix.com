@@ -29,7 +29,8 @@ $dividerColor:       #B6B6B6;
 
 
 /* IMPORT CSS FILES */
-@import "../../lib/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../lib/bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "../../lib/lumx/dist/scss/_lumx";
 @import "_base";
 @import "_nav";
 @import "_article";
