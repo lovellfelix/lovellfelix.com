@@ -1,31 +1,38 @@
 
 
-<div class="card bgc-blue-grey-500 tc-white-1">
+<div class="card bgc-blue-grey-700 tc-white-1">
     <div class="toolbar">
-        <div class="toolbar__left mr+++">
+        <div class="toolbar__left mr+++ hidden-xs">
             <button class="btn btn--l btn--black btn--icon" lx-ripple>
                 <i class="mdi mdi-menu"></i>
             </button>
         </div>
+            <h1 class="navbar-logo">
+              <a href="/" class="main-logo__link" lx-ripple>
+                  <img src="{{ site.url }}/images/{{ site.inc.logo }}">
+              </a>
+            </h1>
+
+
         <a href="{{ site.baseurl }}">
-        <span class="toolbar__label fs-title tc-white-1 mr+++">Lovell Felix</span>
+        <span class="toolbar__label fs-title tc-white-1 mr+++" lx-ripple>Lovell Felix</span>
       </a>
         <div class="toolbar__left">
           <a href="{{ site.inc.blog_link }}">
-          <button class="btn btn--m btn--black btn--flat tc-white-1" lx-ripple lx-dropdown-toggle>
+          <span class="btn btn--m btn--black btn--flat tc-white-1" lx-ripple>
               Blog
-          </button></a>
+          </span></a>
           {% if site.inc.labs_link %}
           <a href="{{ site.inc.labs_link }}">
-            <button class="btn btn--m btn--black btn--flat tc-white-1" lx-ripple lx-dropdown-toggle>
+            <span class="btn btn--m btn--black btn--flat tc-white-1" lx-ripple>
               Labs
-          </button></a>
+          </span></a>
           {% endif %}
          {% if site.inc.testimonials_link %}
          <a href="{{ site.inc.testimonials_link }}">
-           <button class="btn btn--m btn--black btn--flat tc-white-1" lx-ripple lx-dropdown-toggle>
+           <span class="btn btn--m btn--black btn--flat tc-white-1" lx-ripple>
              Testimonials
-         </button></a>
+         </span></a>
              {% endif %}
         </div>
     </div>
