@@ -2,12 +2,12 @@
 
 <div class="card bgc-blue-grey-700 tc-white-1">
     <div class="toolbar">
-        <div class="toolbar__left mr+++ hidden-xs">
-            <button class="btn btn--l btn--black btn--icon" lx-ripple>
+        <div class="toolbar__left mr+++ visible-xs">
+            <span class="btn btn--l btn--black btn--icon" lx-ripple>
                 <i class="mdi mdi-menu"></i>
-            </button>
+            </span>
         </div>
-            <h1 class="navbar-logo">
+            <h1 class="navbar-logo hidden-xs">
               <a href="/" class="main-logo__link" lx-ripple>
                   <img src="{{ site.url }}/images/{{ site.inc.logo }}">
               </a>
@@ -17,7 +17,7 @@
         <a href="{{ site.baseurl }}">
         <span class="toolbar__label fs-title tc-white-1 mr+++" lx-ripple>Lovell Felix</span>
       </a>
-        <div class="toolbar__left">
+        <div class="toolbar__left hidden-xs">
           <a href="{{ site.inc.blog_link }}">
           <span class="btn btn--m btn--black btn--flat tc-white-1" lx-ripple>
               Blog
