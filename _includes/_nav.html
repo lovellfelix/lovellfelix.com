@@ -1,4 +1,39 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+
+<div class="card bgc-blue-grey-500 tc-white-1">
+    <div class="toolbar">
+        <div class="toolbar__left mr+++">
+            <button class="btn btn--l btn--black btn--icon" lx-ripple>
+                <i class="mdi mdi-menu"></i>
+            </button>
+        </div>
+        <a href="{{ site.baseurl }}">
+        <span class="toolbar__label fs-title tc-white-1 mr+++">Lovell Felix</span>
+      </a>
+        <div class="toolbar__left">
+          <a href="{{ site.inc.blog_link }}">
+          <button class="btn btn--m btn--black btn--flat tc-white-1" lx-ripple lx-dropdown-toggle>
+              Blog
+          </button></a>
+          {% if site.inc.labs_link %}
+          <a href="{{ site.inc.labs_link }}">
+            <button class="btn btn--m btn--black btn--flat tc-white-1" lx-ripple lx-dropdown-toggle>
+              Labs
+          </button></a>
+          {% endif %}
+         {% if site.inc.testimonials_link %}
+         <a href="{{ site.inc.testimonials_link }}">
+           <button class="btn btn--m btn--black btn--flat tc-white-1" lx-ripple lx-dropdown-toggle>
+             Testimonials
+         </button></a>
+             {% endif %}
+        </div>
+    </div>
+</div>
+
+
+
+<!--<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
 
         <div class="navbar-header">
@@ -40,4 +75,4 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav>-->
