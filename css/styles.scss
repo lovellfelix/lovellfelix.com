@@ -5,15 +5,27 @@
 /* CONFIGURATION */
 
 /* Bodytext font */
-$font: "PT Sans", sans-serif;
+$font: 'Roboto Condensed', sans-serif;
 
 /* Font for headings */
-$fontheadings: "PT Sans", sans-serif;
+$fontheadings: 'Roboto Condensed', sans-serif;
 
 /* Text colors */
-$text: #21272d;
+$text: #212121;
 $textmuted: #848484;
-$accent: #5ba3e0;
+$accent: #9E9E9E;
+
+/*Brand colors */
+
+$darkPrimaryColor:   #455A64;
+$primaryColor:       #607D8B;
+$lightPrimaryColor:  #CFD8DC;
+$textPrimaryColor:   #FFFFFF;
+$accentColor:        #9E9E9E;
+$primaryTextColor:   #212121;
+$secondaryTextColor: #727272;
+$dividerColor:       #B6B6B6;
+
 
 
 /* IMPORT CSS FILES */
