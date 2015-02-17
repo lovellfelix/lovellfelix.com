@@ -17,6 +17,6 @@
   ],
   "dependencies": {
     "bootstrap-sass": "~3.3.3",
-    "lumx": "~0.3.8"
+    "lumx": "~0.3.9"
   }
 }
