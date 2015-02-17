@@ -1,6 +1,6 @@
 layout: project
 published: true
-graduated: true
+graduated: false
 
 name: Employee Management System
 description: "Employee Management System control Human Resources and personnel management. Advanced features make this application both flexible and easy-to-use!"

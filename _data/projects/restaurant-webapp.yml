@@ -1,16 +1,16 @@
 layout: project
 published: true
-graduated: true
+graduated: false
 
 name: Restaurant We Application
 description: "A Simple Restaurant Operation Web Application"
 snippet: "A Simple Restaurant Operation Web Application"
 
-additionalFeatures: 
+additionalFeatures:
 techUsed: [PHP, MYSQL]
 
 demo:
-  url: 
+  url:
   title: N/A :(
   source_url: https://github.com/lovellfelix/PHP-Restaurant-Web-Application
   source_title: SOURCE

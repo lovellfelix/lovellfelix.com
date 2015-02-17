@@ -1,16 +1,16 @@
 layout: project
 published: true
-graduated: true
+graduated: false
 
 name: XML Generator
 description: Dynamically create xml file using PHP and MySQL
 snippet: Dynamically create xml file using PHP and MySQL
 
-additionalFeatures: 
+additionalFeatures:
 techUsed: [PHP, MYSQL, XML]
 
 demo:
-  url: 
+  url:
   title: demo
   source_url: https://github.com/lovellfelix/XML-Generator
   source_title: SOURCE
