@@ -1,7 +1,7 @@
 ---
 layout: project
 published: true
-graduated: true
+graduated: false
 
 title: "Restaurant Web Application"
 short-description:  A Simple Restaurant Operation Web Application.

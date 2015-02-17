@@ -1,7 +1,7 @@
 ---
 layout: project
 published: true
-graduated: true
+graduated: false
 
 title: "G-VIDZ.COM Chrome Extension"
 short-description: "A Quickway to find Grenadian Videos on Chrome."

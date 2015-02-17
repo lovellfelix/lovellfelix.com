@@ -1,7 +1,7 @@
 ---
 layout: project
 published: true
-graduated: true
+graduated: false
 
 title: "G-VIDZ.COM"
 short-description: "G-VIDZ.COM is the number one source for Grenadian videos."

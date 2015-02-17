@@ -1,7 +1,7 @@
 ---
 layout: project
 published: true
-graduated: true
+graduated: false
 
 title: "Employee Management System"
 short-description: "Employee Management System (EMS) - User Profile, Contact Information, Secure login, and Payroll Reports."

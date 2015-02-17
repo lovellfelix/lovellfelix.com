@@ -1,7 +1,7 @@
 ---
 layout: project
 published: true
-graduated: true
+graduated: false
 
 title: "Hotel Reversation Application"
 short-description: A simple reservation application written in VB that fascilitate easy capture of information from guest, and convert them into meaningful data"
