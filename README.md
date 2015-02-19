@@ -5,6 +5,8 @@ My Personal website [lovellfelix.com](http://lovellfelix.com) built using Jekyll
 The initial source code was obtained from [kippt](https://github.com/kippt) [Jekyll-Incorporated repository](https://github.com/kippt/jekyll-incorporated).
 
 ## Publish to Github Pages
+
+[![Join the chat at https://gitter.im/lovellfelix/lovellfelix.com](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lovellfelix/lovellfelix.com?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 1. Add your domain to [_CNAME_](CNAME)
 2. Create gh-pages branch
 3. Push branch with changes to github repository
