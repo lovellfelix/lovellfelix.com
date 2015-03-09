@@ -8,7 +8,7 @@
   z-index: 999;
     height: 60px;
     padding: $base-spacing-unit * 1.5;
-    background-color: $lightPrimaryColor;
+    background-color: $primaryColor;
     @include clearfix;
 }
 
@@ -81,7 +81,7 @@
     border-radius: $base-round;
     @include font-size(18px);
     font-weight: 500;
-    color: $accentColor;
+    color: $textPrimaryColor;
     line-height: 36px;
     text-decoration: none;
 

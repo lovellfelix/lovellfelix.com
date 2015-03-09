@@ -1,5 +1,5 @@
 article {
-    
+
     padding:90px 0;
     font-size:18px;
 
@@ -69,7 +69,7 @@ article {
     p {
         font-size:1em;
         line-height:1.5;
-        color:$text;
+        color:$primaryTextColor;
         font-weight:400;
         margin:0 0 1.5em;
     }
@@ -149,7 +149,7 @@ article {
     }
 
     .meta {
-        color:$textmuted;
+        color:$secondaryTextColor;
         font-size:13px;
         text-transform:uppercase;
         margin-bottom:0.3em;
@@ -163,7 +163,7 @@ article {
 
         a {
             border:0;
-            color:$textmuted;
+            color:$secondaryTextColor;
         }
     }
 
@@ -186,7 +186,7 @@ article {
     .subtitle {
         font-size: 1.4em;
         margin: 0.2em 0;
-        color: $textmuted;
+        color: $secondaryTextColor;
         font-weight: 300;
     }
 
@@ -195,7 +195,7 @@ article {
         border:0;
 
         .lineno {
-            color:$textmuted;
+            color:$secondaryTextColor;
         }
     }
 

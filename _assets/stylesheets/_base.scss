@@ -4,7 +4,7 @@ body {
   margin:0;
   border:0;
   font-family:$font;
-  color:$text;
+  color:$textPrimaryColor;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizelegibility;
   font-size:17px;
@@ -47,12 +47,12 @@ h1, h2 {
 }
 
 a {
-  color:$accent;
+  color:$accentColor;
   text-decoration:none;
   transition:all 0.2s ease;
 
   &:hover {
-    color:darken($accent, 5%);
+    color:darken($accentColor, 5%);
     text-decoration:none;
   }
 }
@@ -111,7 +111,7 @@ a {
 .index-cover {
 
   height: 60px;
-  background-color: $accent;
+  background-color: $accentColor;
   background-position: center center;
   z-index: 1;
 
@@ -341,21 +341,21 @@ a {
 }
 
 .muted {
-  color:$textmuted;
+  color:$textPrimaryColor;
 }
 
 
 .btn-outline {
   background: none;
   border-radius: 4px;
-  border:2px solid $accent;
+  border:2px solid $accentColor;
   border-radius: 3px;
-  color:darken($accent, 5%);
+  color:darken($accentColor, 5%);
   transition:none;
 
   &:hover {
-    border:2px solid darken($accent, 5%);
-    color:darken($accent, 10%);
+    border:2px solid darken($accentColor, 5%);
+    color:darken($accentColor, 10%);
     background:none;
   }
 }
@@ -416,7 +416,7 @@ hr.soften {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
-  background:$accent;
+  background:$accentColor;
 }
 
 .pad {
@@ -426,7 +426,7 @@ hr.soften {
 .desc {
   margin-top:0px;
   padding:10px;
-  color:$text;
+  color:$textPrimaryColor;
   min-height: 135px;
 }
 
@@ -441,7 +441,7 @@ hr.soften {
 }
 
 .desc:hover h5 {
-  color:$accent;
+  color:$accentColor;
 }
 
 .p_title {

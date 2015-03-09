@@ -5,7 +5,7 @@
         </a>
     </h1>
     <a href="/">
-    <span class="toolbar__label fs-title main-nav--lap-and-up" lx-ripple="white">Lovell Felix</span></a>
+    <span class="toolbar__label fs-title main-nav--lap-and-up tc-white-1" lx-ripple="white">Lovell Felix</span></a>
 
     <nav class="main-nav main-nav--lap-and-up">
         <ul>
@@ -25,11 +25,27 @@
 
     <nav class="main-nav main-nav--palm">
 
+      <lx-dropdown position="right" from-top="true">
+          <button class="btn btn--m btn--black btn--icon" lx-ripple lx-dropdown-toggle>
+              <i class="mdi mdi-dots-vertical"></i>
+          </button>
 
-    <button class="btn btn--m btn--white btn--icon" lx-ripple="white">
-        <i class="mdi mdi-dots-vertical"></i>
-    </button>
+          <lx-dropdown-menu>
+              <ul>
+                <li><a href="{{ site.inc.blog_link }}" class="dropdown-link" lx-ripple="white">Blog</a></li>
+                {% if site.inc.labs_link %}
+                <li><a href="{{ site.inc.labs_link }}" class="dropdown-link" lx-ripple="white">Labs</a></li>
+                {% endif %}
+                {% if site.inc.testimonials_link %}
+                <li><a href="{{ site.inc.testimonials_link }}" class="dropdown-link" lx-ripple="white">Testimonials</a></li>
+                {% endif %}
+                {% if site.inc.labs_link %}
+                <li><a href="{{ site.inc.resume_link }}" class="dropdown-link" lx-ripple="white">Resume</a></li>
+                {% endif %}
 
+              </ul>
+          </lx-dropdown-menu>
+      </lx-dropdown>
 
 
 
