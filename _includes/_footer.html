@@ -1,40 +1,31 @@
-
-
 <div id="footer">
-
-<footer class="site-footer bgc-blue-grey-50">
+  <footer class="site-footer bgc-blue-grey-50">
     <div class="container">
-        
-        <nav>
+      <nav>
         &copy; {{ site.time | date: "%Y" }}
-            <a href="{{ site.inc.url }}">{{ site.inc.company }}</a>
+        <a href="{{ site.inc.url }}">{{ site.inc.company }}</a>
+        <span class="visible-xs">&middot;
+        </span>
+      </nav>
+      <nav class="social">
+        <div>
+          <a href="https://twitter.com/{{ site.inc.twitter }}" target="_blank">
+            <i class="icon icon--xs icon--grey icon--circled mdi mdi-twitter"></i></a>
+          <a href="http://facebook.com/{{ site.inc.facebook }}" target="_blank">
+            <i class="icon icon--xs icon--grey icon--circled mdi mdi-facebook"></i></a>
+          <a href="https://plus.google.com/u/0/{{ site.inc.gplus }}" target="_blank">
+            <i class="icon icon--xs icon--grey icon--circled mdi mdi-google-plus"></i></a>
+          <a href="http://github.com/{{ site.inc.github }}" target="_blank">
+            <i class="icon icon--xs icon--grey icon--circled mdi mdi-github-circle"></i></a>
+          <a href="/feed.xml" title="RSS Feed">
+            <i class="icon icon--xs icon--orange icon--circled mdi mdi-rss"></i></a>
+        </div>
 
-            <span class="visible-xs">&middot;
-                <hr class="soften">
-            <a href="{{ site.inc.blog_link }}">Blog</a> &middot;
-            {% if site.inc.labs_link %}<a href="{{ site.inc.labs_link }}">Labs</a> &middot; {% endif %}
-            {% if site.inc.testimonials_link %}<a href="{{ site.inc.testimonials_link }}">Testimonials</a>{% endif %}
-            {% if site.inc.resume_link %}<a href="{{ site.inc.resume_link }}">Resume</a>{% endif %}
-            </span>
-        </nav>
-
-        <nav class="social">
-            {% if site.inc.twitter %}
-            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
-            {% endif %}
-            {% if site.inc.facebook %}
-            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
-            {% endif %}
-            <a href="/feed.xml" title="RSS Feed">
-                <i class="icon icon-rss black"></i>
-            </a>
-        </nav>
+      </nav>
     </div>
-</footer>
-
+  </footer>
 </div>
-
 {% include _scripts.html %}
-
 </body>
+
 </html>
