@@ -14,7 +14,7 @@ author:
 
 The past few weeks the [Android community](https://plus.google.com/communities/105153134372062985968) been ranting and raving over [Glide](https://github.com/bumptech/glide), the new image loader kid on the block (well newish). It actually been around for almost a year. It was introduced in Google I/O 2014. I tried it last July, but the performance wasn’t significantly different to [Picasso](http://square.github.io/picasso/) and the community was small, so I decided to continue using [Picasso](http://square.github.io/picasso/) in all my projects. Yeah I know, I chose a product based on popularity :P Is that a bad thing? 
 
-So why did I decid to do the old switcheroo? I came across a blog post on [The Cheese Factory](http://inthecheesefactory.com/blog/get-to-know-glide-recommended-by-google/en) with some performance benchmark, and it clearly illustrated how ridiculously fastER and bettER at memory usage [Glide](https://github.com/bumptech/glide) was to [Picasso](http://square.github.io/picasso/). <!-- more -->
+So why did I decide to do the old switcheroo? I came across a blog post on [The Cheese Factory](http://inthecheesefactory.com/blog/get-to-know-glide-recommended-by-google/en) with some performance benchmark, and it clearly illustrated how ridiculously fastER and bettER at memory usage [Glide](https://github.com/bumptech/glide) was to [Picasso](http://square.github.io/picasso/). <!-- more -->
 
 
 ![credit - The Cheese Factory](/images/posts/glide_usage.png)
