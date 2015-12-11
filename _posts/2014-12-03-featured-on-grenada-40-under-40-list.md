@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Featured on Grenada 40 under 40 list for Technology'
-date: '2014-03-03T23:31:00-07:00'
+date: '2014-12-03T23:31:00-07:00'
 tags:
 
 author:
