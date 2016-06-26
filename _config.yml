@@ -104,7 +104,6 @@ limit_posts: 0
 
 highlighter: pygments
 
-relative_permalinks: true
 permalink: /blog/:title/
 paginate_path: '/blog/page:num'
 paginate: 8
