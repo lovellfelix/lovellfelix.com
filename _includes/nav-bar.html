@@ -1,0 +1,27 @@
+<nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-secondary">
+    <div class="container">
+        <a class="navbar-brand brand-title" href="/">
+         <img class="d-inline-block align-top" src="/images/{{ site.logo }}" alt="Lovell Felix" width="30" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item{% if page.blog %} active{% endif %}">
+                    <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
+                </li>
+                <li class="nav-item{% if page.title == " About " %} active{% endif %}">
+                    <a class="nav-link" href="{{ site.baseurl }}/labs">Labs</a>
+                </li>
+                <li class="nav-item{% if page.title == "About" %} active{% endif %}">
+                    <a class="nav-link" href="{{ site.baseurl }}/testimonials">Testimonials</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a href="#" class="btn btn-info btn-sm my-2 my-sm-0">Resume</a>
+            </form>
+        </div>
+    </div>
+</nav>

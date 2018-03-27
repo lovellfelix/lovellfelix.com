@@ -1,51 +1,19 @@
 ---
-layout: base
+layout: default
 ---
-{% if page.cover_image %}
-<div class="article-cover">
-  <div>
-    <img src="/images/{{ page.cover_image }}" class="image">
+
+<section class="bg-light text-dark height-20 mt-4">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <small>
+      <span class="text-muted text-uppercase">Written By {{ page.author.name }} &mdash; {{ page.date | date: "%B %d, %Y" }}</span>
+    </small>
+  </div>
+</section>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8 mt-4">
+      {{ content }} {% include disqus.html %}
+    </div>
   </div>
 </div>
-{% endif %}
-
-<article>
-
-  <div class="container">
-    <header>
-      <h1 class="title">{{ page.title }}</h1>
-      {% if page.subtitle %}
-      <h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
-      <div class="meta">
-        By
-        <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a> &mdash;
-          <time pubdate datetime="{{ page.date | date: " %Y-%d-%B " }}" title="{{ page.date | date: " %B %d, %Y " }}">{{ page.date | date: "%B %d, %Y" }}</time>
-      </div>
-    </header>
-
-    <section>
-      {{ content }} {% include _social.html %}
-    </section>
-
-    <footer>
-      <address>
-
-        {% if page.author.image %}
-        <img src="{{ page.author.image }}">{% endif %}
-        <p>Written by
-          <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a>
-          </strong>
-          <br>
-          <span class="muted">{{ page.author.bio }}</span>
-        </p>
-      </address>
-
-    </footer>
-
-    {% if site.inc.disqus.shortname %}
-    <section>
-      {% include _disqus.html %}
-    </section>
-    {% endif %}
-  </div>
-</article>

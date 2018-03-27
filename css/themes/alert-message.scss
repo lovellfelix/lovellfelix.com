@@ -1,0 +1,49 @@
+.alert-message {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+
+.alert-message h4 {
+    margin-top: 0;
+    margin-bottom: .25rem;
+}
+
+.alert-message p:last-child {
+    margin-bottom: 0;
+}
+
+.alert-message code {
+    border-radius: .25rem;
+}
+
+.alert-message+.alert-message {
+    margin-top: -.25rem;
+}
+
+.alert-message-info {
+    border-left-color: #5bc0de;
+}
+
+.alert-message-info h4 {
+    color: #5bc0de;
+}
+
+.alert-message-warning {
+    border-left-color: #f0ad4e;
+}
+
+.alert-message-warning h4 {
+    color: #f0ad4e;
+}
+
+.alert-message-danger {
+    border-left-color: #d9534f;
+}
+
+.alert-message-danger h4 {
+    color: #d9534f;
+}
