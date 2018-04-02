@@ -9,12 +9,11 @@ blog: true
     {% if site.blog_subtitle %}
     <h4>{{ site.blog_subtitle }}</h4>
     {% endif %}
-    </div>
+  </div>
 </section>
 <div class="container">
   <div class="row justify-content-center">
-    {% for post in paginator.posts %}
-       {% unless post.draft %}
+    {% for post in paginator.posts %} {% unless post.draft %}
     <div class="col-12 col-md-10 col-lg-8 mt-4">
       <h1 class="font-weight-bold">
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -22,13 +21,12 @@ blog: true
       <div class="entry mt-4">
         {{ post.excerpt }}
       </div>
-    
-      <small><span class="text-muted text-uppercase">Written By {{ post.author.name }} &mdash; {{ post.date | date: "%B %d, %Y" }}</span></small>
+      <small>
+        <span class="text-muted text-uppercase">Written By {{ post.author.name }} &mdash; {{ post.date | date: "%B %d, %Y" }}</span>
+      </small>
       <hr class="mb-4 mt-4">
-
     </div>
-     {% endunless %}
-    {% endfor %}
+    {% endunless %} {% endfor %}
   </div>
   {% if paginator.total_pages > 1 %}
   <nav aria-label="Page navigation example">
@@ -45,7 +43,6 @@ blog: true
       <li class="page-item">
         <a class="page-link" href="#">{{ page }}</a>
       </li>
-
       {% elsif page == 1 %}
       <li class="page-item">
         <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
