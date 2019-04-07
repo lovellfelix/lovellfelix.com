@@ -1,7 +1,7 @@
 ---
 layout: project
 published: true
-graduated: true
+graduated: false
 
 title: "lnsta"
 short-description:  A simple and clean user interface web application designed for Instagram interaction on the Web

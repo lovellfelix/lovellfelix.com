@@ -4,11 +4,11 @@ body {
   margin:0;
   border:0;
   font-family:$font;
-  color:$text;
+  color:$textPrimaryColor;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizelegibility;
   font-size:17px;
-  background-color: #ffffff;
+  background-color: $lightPrimaryColor;
 }
 
 /*sticky footer */
@@ -47,12 +47,12 @@ h1, h2 {
 }
 
 a {
-  color:$accent;
+  color:$accentColor;
   text-decoration:none;
   transition:all 0.2s ease;
 
   &:hover {
-    color:darken($accent, 50%);
+    color:darken($accentColor, 5%);
     text-decoration:none;
   }
 }
@@ -108,74 +108,10 @@ a {
 
 
 
-/* .index-cover {
-  @extend .article-cover;
-  height: 320px;
-  background: url("../images/grid.png") repeat center top;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  z-index:1;
-
-  section {
-    text-align: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom:0;
-    padding: 150px 0;
-    z-index:10;
-
-
-    a {
-      color:#fff;
-      border:0;
-      width:36px;
-      height:36px;
-      border:2px solid #d4d4d4;
-      display:inline-block;
-      padding:10px 0;
-      border-radius:42px;
-      margin:1.5em 1em 0em 0;
-      transition:0.2s all ease;
-      line-height:0;
-      text-align:center;
-
-      &:hover {
-        transition:0.2s all ease;
-        background:#fff;
-
-        .icon-rss {
-          background-position:1px -11px;
-          color: #000000;
-        }
-
-        .icon-twitter {
-          background-position:0px -15px;
-        }
-
-        .icon-facebook {
-          background-position:0px -14px;
-        }
-      }
-    }
-  }
-
-}
-
-
-.index-cover {
-  position: fixed;
-  top: 35%;
-  left: 35%;
-
-}*/
-
-
 .index-cover {
 
   height: 60px;
-  background-color: $accent;
+  background-color: $accentColor;
   background-position: center center;
   z-index: 1;
 
@@ -189,7 +125,7 @@ a {
     width: 40%;
     height: 50%;
 
-    
+
   }
 
 
@@ -203,27 +139,16 @@ a {
   overflow: hidden;
 
   .logotext {
-    
-    top: 35%;
-    text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
-    box-shadow: 0px 1px 2px rgba(0,0,0,0.7);
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-    
-  }
-  
-  .text {
-    width: 22em;
-    position: fixed;
 
+    top: 35%;
+
+  }
+
+  .text {
+    position: fixed;
     left: 50%;
-    padding: 20px 35px 25px;
-    background: rgba(0,0,0,.5);
     line-height: 1.2;
-    margin-left: -11em;
-    font-size: 1em;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    margin-left: -12em;
   }
 }
 
@@ -248,7 +173,7 @@ a {
     right: 0;
     top: 0;
     bottom:0;
- 
+
     padding: 50px 0;
     z-index:10;
 
@@ -321,7 +246,7 @@ a {
     right: 0;
     top: 0;
     bottom:0;
-    
+
 
     padding: 50px 0;
     z-index:10;
@@ -340,7 +265,7 @@ a {
       line-height:0;
       text-align:center;
 
-     
+
     }
   }
 
@@ -366,8 +291,6 @@ a {
 
 .site-footer {
   padding:20px 0;
-  background:whitesmoke;;
-  color:#aaa;
   font-size:0.8em;
 
   a {
@@ -396,19 +319,11 @@ a {
     float:right;
 
     a {
-      color:#000;
-      border:0;
-      width:24px;
-      height:24px;
-      border:2px solid rgba(0,0,0,1);
-      display:inline-block;
-      padding:4px 0;
-      border-radius:42px;
       margin:0 1em 0em 0;
       transition:0.2s all ease;
       line-height:0;
       text-align:center;
-      opacity:0.3;
+      opacity:0.4;
 
       &:hover {
         opacity:0.9;
@@ -418,21 +333,21 @@ a {
 }
 
 .muted {
-  color:$textmuted;
+  color:$textPrimaryColor;
 }
 
 
 .btn-outline {
   background: none;
   border-radius: 4px;
-  border:2px solid $accent;
+  border:2px solid $accentColor;
   border-radius: 3px;
-  color:darken($accent, 5%);
+  color:darken($accentColor, 5%);
   transition:none;
 
   &:hover {
-    border:2px solid darken($accent, 5%);
-    color:darken($accent, 10%);
+    border:2px solid darken($accentColor, 5%);
+    color:darken($accentColor, 10%);
     background:none;
   }
 }
@@ -477,7 +392,7 @@ hr.soften {
 /* PORTFOLIO */
 
 .projects {
-  padding-top:80px;
+  padding-top:40px;
 
 }
 
@@ -493,17 +408,18 @@ hr.soften {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
-  background:$accent;
+  background:$accentColor;
 }
 
+.pad {
+  margin-bottom: 20px;
+}
 /* bottom description in projects */
 .desc {
   margin-top:0px;
-  margin-bottom:20px;
   padding:10px;
-  background:whitesmoke;;
-  color:$text;
-  min-height: 190px;
+  color:$textPrimaryColor;
+  min-height: 135px;
 }
 
 .desc h5 {
@@ -517,7 +433,7 @@ hr.soften {
 }
 
 .desc:hover h5 {
-  color:$accent;
+  color:$accentColor;
 }
 
 .p_title {
@@ -551,16 +467,16 @@ hr.soften {
     #landing div a {
     background: rgb(250, 250, 250) no-repeat center;
     border: 1px solid rgb(242, 242, 242);
-    
+
     display: block;
     margin-bottom: 20px;
     min-height: 65px;
     transition: all .5s;}
-    
+
     #landing div {
     float: left;
     padding-right: 10px;
-    
+
     margin-right: 0;
     width: 16.666666%;
     }

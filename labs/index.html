@@ -3,36 +3,51 @@ layout: base
 title: Labs
 ---
 
-<div class="labs-cover" style="background-image:url(/images/{{ site.inc.labs_cover_image }});">
+<div class="labs-cover bgc-blue-grey-300">
 
     <section>
         <div class="container">
-            <h1>{{ site.inc.labs_title}}</h1>
-            {% if site.inc.labs_subtitle %}<h3>{{ site.inc.labs_subtitle }}</h3>{% endif %}
+          <span class="fs-display-2 display-block tc-white-1">{{ site.inc.labs_title}}</span>
+          {% if site.inc.labs_subtitle %}
+          <span class="fs-headline display-block tc-white-1">{{ site.inc.labs_subtitle }}</span>
+          {% endif %}
 
         </div>
     </section>
 </div>
 <div class="container">
-<div class="row projects">
-    {% for project in site.labs limit:12 %}
-    <div class="col-sm-6 col-md-4">
-        {% if project.thumbnail  %}
-        <a href="{{ project.url }}">
-            <img src="{{ project.thumbnail }}" alt=""></a>
-        {% endif %}
-        <div class="desc">
-            <a href="{{ project.url }}">
-                <h5>{{ project.title }}</h5></a>
-            <hr class="soften">
-            <p>{{ project.short-description }}</p>
 
-        </div><!-- /desc -->
-    </div><!-- /span4 -->
+
+<div class="row projects">
+    {% for project in site.labs %}
+    <div class="col-sm-6 col-md-4 pad">
+      <div class="card">
+        <div class="card__img card__img--top">
+          <a href="{{ project.url }}" lx-ripple="white">
+            <img src="{{ project.thumbnail }}" lx-ripple="white">
+            {% if project.graduated != false %}
+            <span class="fs-title tc-white-1 display-block">
+              <i class="icon icon--l icon--orange icon--flat mdi mdi-trophy"></i></span>
+              {% endif %}
+            </a>
+        </div>
+
+        <div class="p+ desc">
+          <a href="{{ project.url }}" lx-ripple="white">
+            <span class="fs-subhead tc-black-2 display-block">{{ project.title }}</span></a>
+            <div class="paragraph fs-caption">
+                <p>
+                  {{ project.short-description }}
+                </p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+
     {% endfor %}
 
 </div>
 
 </div>
-
-

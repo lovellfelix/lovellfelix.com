@@ -1,7 +1,7 @@
 ---
 layout: project
 published: true
-graduated: true
+graduated: false
 
 title: "XML Generator"
 short-description: "Dynamically create xml file using PHP and MySQL"

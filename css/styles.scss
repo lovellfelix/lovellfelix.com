@@ -5,29 +5,34 @@
 /* CONFIGURATION */
 
 /* Bodytext font */
-$font: "PT Sans", sans-serif;
+$font: 'Roboto Condensed', sans-serif;
 
 /* Font for headings */
-$fontheadings: "PT Sans", sans-serif;
+$fontheadings: 'Roboto Condensed', sans-serif;
 
-/* Text colors */
-$text: #21272d;
-$textmuted: #848484;
-$accent: #5ba3e0;
 
+$darkPrimaryColor:   #455A64;
+$primaryColor:       #607D8B;
+$lightPrimaryColor:  #CFD8DC;
+$textPrimaryColor:   #FFFFFF;
+$accentColor:        #536E7A;
+$primaryTextColor:   #212121;
+$secondaryTextColor: #727272;
+$dividerColor:       #B6B6B6;
 
 /* IMPORT CSS FILES */
-@import "bootstrap";
+// @import "../../lib/bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "../../lib/lumx/dist/scss/_lumx";
 @import "_base";
 @import "_nav";
 @import "_article";
-@import "_dropdown";
-@import "_icons";
+// @import "_dropdown";
+// @import "_icons";
 @import "_syntax";
 @import "_responsive";
-@import "_buttons";
+// @import "_buttons";
 @import "_labels";
-@import "_glyphicons";
+// @import "_glyphicons";
 @import "_resume";
 @import "_testimonials";
 @import "_messagebox";
