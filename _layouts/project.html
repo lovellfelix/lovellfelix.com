@@ -1,135 +1,80 @@
 ---
-layout: base
+layout: default
+title: Labs
 ---
 
-<!--<div class="labs-cover" style="background-image:url(/images/{{ site.inc.labs_cover_image }});">
-
-    <section>
-        <div class="container">
-            <h1>{{ site.inc.labs_title}}</h1>
-            {% if site.inc.labs_subtitle %}<h3>{{ site.inc.labs_subtitle }}</h3>{% endif %}
-
-        </div>
-    </section>
-</div>-->
-
-<div id="wrap">
-
-<article class="container">
- <div class="p_title">
-        <div class="st">{{ page.title  }} </div>
-    </div>
-    <div class="row">
-     
-<div class="col-xs-12 col-sm-6 col-md-8">
-
-{% if page.screenshot != empty %}
-
-<div id="carousel-screenshots" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-screenshots" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-screenshots" data-slide-to="1"></li>
-    <li data-target="#carousel-screenshots" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="{{ page.thumbnail }}" height="570" width="800" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    {% for pics in page.screenshot%}
-        <div class="item">
-          <img src="{{ pics }}" height="1280" width="800" alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
- 
-    {% endfor %}
+<section class="bg-light text-dark height-20 mt-4">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <small>
+      {% if page.screenshot != empty %}
+      <a href="{{ page.demo.source_url }}">
+      <i class="fab fa-github-square fa-lg text-dark"></i>
+      <span class="text-muted">Repository</span></a>
+      {% else %}
+      <i class="fab fa-github-square fa-lg text-dark"></i>
+      <span class="text-muted">:(</span>
+       {% endif %}
+    </small>
   </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-screenshots" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-screenshots" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-   {% else %}
-    <img src="{{ page.thumbnail }}" alt="...">
-{% endif %}
-
-
-
-        </div>
-        <div class="col-xs-12 col-md-4">
-        <p></p>
-
-      <div class="panel panel-default">
-      <div class="panel-heading">
-    <h3 class="panel-title">Description</h3></div>
-      <div class="panel-body">
-        {{ content }}
-      </div>
-
-</div>
-
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Technology</h3>
-      </div>
-      <div class="panel-body">
-
-              {% for techs in page.techUsed %}
-
-
-          <span class="label label-default">{{ techs | upcase  }}</span>
-
-
-              {% endfor %}
-
-      </div>
-    </div>
-
-            <div class="p_title">
-                <div class="st"> Explore </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col-xs-6 col-md-8">Try</div>
-                <div class="col-xs-6 col-md-4">
-                    <a href="{{ page.demo.url }}"><button type="button" class="btn btn-primary col-xs-7 col-md-12">{{ page.demo.title }}</button></a>
-                </div>
-                <div class="col-xs-6 col-md-8"></div>
-                <div class="col-xs-6 col-md-4"></div>
-
-                <div class="col-xs-6 col-md-8">View Source</div>
-                <div class="col-xs-6 col-md-4">
-                    <a href="{{ page.demo.source_url }}"><button type="button" class="btn btn-danger col-xs-7 col-md-12">{{ page.demo.source_title }}</button></a>
-                </div>
-
-
-            </div>
-
-
-
-      
-        </div>
-    </div>
-</article>
-
-
 </section>
 
+<section>
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-12 col-md-8 col-lg-7">
+        {% if page.screenshot != empty %}
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            {% for pics in page.screenshot%}
+            <div {% if forloop.rindex <=2 %} class="carousel-item" {% else %} class="carousel-item active" {% endif %}>
+              <img class="d-block w-100" src="{{ pics }}" alt="First slide">
+            </div>
+            {% endfor %}
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        {% else %}
+        <img src="{{ page.thumbnail }}" class="img-fluid" alt="{{ page.title }}"> 
+        {% endif %}
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card">
+          <div class="card-header d-flex justify-content-between">
+            <div>
+              <span class="h6">Description</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">{{ page.title }}</h5>
+            <p class="card-text">{{ content }}</p>
+            <a href="{{ page.demo.source_url }}" class="btn btn-primary">
+              <i class="fas fa-external-link-alt"></i> {{ page.demo.title }}</a>
+            <a href="{{ page.demo.source_url }}" class="btn btn-outline-danger">{{ page.demo.source_title }}</a>
+          </div>
+        </div>
+        <div class="card mt-4">
+          <div class="card-header d-flex justify-content-between">
+            <div>
+              <span class="h6">Technology</span>
+              <!-- <span class="badge badge-secondary">6</span> -->
+            </div>
+          </div>
+          <div class="card-body">
+            {% for techs in page.techUsed %}
+            <span class="badge badge-pill badge-primary">{{ techs | upcase }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-</div>

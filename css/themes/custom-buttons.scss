@@ -1,0 +1,48 @@
+/*
+* Custom Button
+*/
+
+.btn-custom {
+  user-select: none;
+  background: 0 0;
+  padding: 0 1.6rem;
+  font-size: .9rem;
+  font-weight: 600;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.btn-default {
+  user-select: none;
+  transition: all .2s ease-in-out;
+  background: #ececec;
+  color: #676767;
+  border: 1px solid #ececec;
+  padding: 0 1.6rem;
+  font-size: .9rem;
+  height: 3rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+
+.btn-default:not(.btn-default--noHover):hover {
+  background: #dfdfdf;
+  border: 1px solid transparent
+}
+
+.btn-default:focus {
+  outline: 0;
+  box-shadow: 0 0 0 1px #fff, 0 0 2px 2px #0069ff
+}
+
+.btn-blue {
+  color: #fff;
+  background: $blue;
+  border-color: $blue;
+  border: 1px solid #ececec;
+  padding: 0 1.6rem;
+  font-size: .9rem;
+  height: 3rem;
+  line-height: 3rem;
+  font-weight: 600;
+}

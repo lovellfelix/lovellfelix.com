@@ -1,124 +1,111 @@
-inc:
-  # Blog Information
-  title:        "Lovell Felix"
-  blog_title: "Blog"
-  blog_subtitle:     "Routine Tutorials"
-  cover_image:  blog-cover.png
-  logo:         logo.png
-  blog_link: /blog/
+#
+# This file contains configuration flags to customize your site
+#
 
-  # Company information
-  company:      Lovell Felix
-  landing_page_title: "Geek, Google Fanboy, Tech News Junkie, Entrepreneur - Drinker of tea :)"
-  url:          http://lovellfelix.com/
-  facebook:     lovell.felix
-  twitter:      lovellfelix
-  gplus:        '102676824509364241023'
-  profile_pic: https://lh3.googleusercontent.com/-Ubq3pEfgeLk/AAAAAAAAAAI/AAAAAAAAOvs/nGutWDQ5OGc/s120-c/photo.jpg.png
-  about_link:   /about/
-
-  #Resume
-  resume_title: "Lovell Felix - Resume"
-  #resume_link: /resume/
-  resume_link: http://www.linkedin.com/in/lovellfelix
-
-  # Labs Information
-  labs_title: Labs
-  labs_subtitle: Playground For Some Of My Wild And Crazy Ideas :)
-  labs_cover_image:  lab-cover.jpg
-  labs_link: /labs/
-  tagline:      " "
-
-  # Testimonials
-  testimonials_title: Testimonials
-  testimonials_subtitle: What people are saying
-  testimonials_cover_image:  testimonials-cover.jpg
-  testimonials_link: /testimonials/
+# Name of your site (displayed in the header)
+name:  "Lovell Felix"
+# Short bio or description (displayed in the header)
+description: 
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: 
+logo:         logo.png
 
 
-  # Comments
-  disqus:
-    # Eg. "exampleblog" Set to false to disable comments
-    shortname:  false
+#
+# Flags below are optional
+#
 
-  # Sharing settings
-  sharing:
-    twitter:    false
-    facebook:   false
-    gplus:      false
-    hn:         false
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email:
+  facebook: lovell.felix
+  flickr:
+  github: 
+  instagram:
+  linkedin:
+  pinterest:
+  rss:  # just type anything here for a working RSS icon
+  twitter: lovellfelix
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: '102676824509364241023' # anything in your profile username that comes after plus.google.com/
 
 
- # Analytics
-  analytics:
-    google:
-      # eg. 'UA-123-12'
-      id:       UA-18508266-1
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus:
 
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-18508266-1
 
-  # Google Fonts
-  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-  google_font: 'PT+Sans:400,700'
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: 
 
-  # Setup your fonts, colors etc at _assets/stylesheets/main.scss
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page:num/"
+categories: []
+excerpt_separator: "<!-- more -->"
+
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+permalink: /blog/:year/:month/:day/:title/
+
+# Blog Information
+blog_title: "Blog"
+blog_subtitle:     "Routine Tutorials"
+cover_image:  blog-cover.png
+logo:         logo.png
+blog_link: /blog/
+
+# Labs Information
+labs_title: Labs
+labs_subtitle: Playground For Some Of My Wild And Crazy Ideas :)
+labs_cover_image:  lab-cover.jpg
+labs_link: /labs/
+tagline:      " "
+
+# Testimonials
+testimonials_title: Testimonials
+testimonials_subtitle: What people are saying
+testimonials_cover_image:  testimonials-cover.jpg
+testimonials_link: /testimonials/
 
 collections:
   labs:
     output: true
     permalink: /labs/:path/
 
-url:         https://lovellfelix.com
-source:      .
-destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-include:     ['.htaccess']
-exclude:     [Gemfile, Gemfile.lock, Rakefile, bk, psd, screenshots]
-
-markdown:      kramdown
-markdown_ext:  markdown,mkd,mkdn,md
-textile_ext:   textile
-
-
 kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
 
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
-
-
-# Show future posts
-future:      false
-show_drafts: nil
-limit_posts: 0
-
-highlighter: pygments
-
-permalink: /blog/:title/
-paginate_path: '/blog/page:num'
-paginate: 8
-
-
-excerpt_separator: "<!-- more -->"
-
-safe:        false
-host:        0.0.0.0
-port:        4000
-baseurl:     /
-lsi:         false
-
-#
-# We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _assets/stylesheets
-  style:            :compressed
+  sass_dir: css
+  style: compressed 
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap 
+  - jekyll-feed 
+  - jekyll-paginate
+  - jekyll-gist
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - Website.code-workspace

@@ -17,7 +17,7 @@ demo:
   url: http://demo.lovellfelix.com/dbi
   title: Demo
   source_url: http://github.com/lovellfelix/db-installer
-  source_title: code
+  source_title: Download
 
 endorsements:
 -

@@ -18,7 +18,6 @@ demo:
   title: WEBSITE
   source_url: 
   source_title: N/A :( 
-
   source_title: code
 
 endorsements:

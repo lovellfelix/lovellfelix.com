@@ -17,7 +17,7 @@ demo:
   url:
   title: N/A :(
   source_url: https://github.com/lovellfelix/Time-Ago
-  source_title: SOURCE
+  source_title: Download
 
 endorsements:
 -

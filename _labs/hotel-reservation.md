@@ -17,7 +17,7 @@ demo:
   url: N/A :(  
   title: WEBSITE
   source_url: https://github.com/lovellfelix/Hotel-Reversation-Application
-  source_title: SOURCE
+  source_title: Download
 
 endorsements:
 -

@@ -1,38 +1,33 @@
 ---
-layout: base
+layout: default
 title: Labs
 ---
-
-<div class="labs-cover" style="background-image:url(/images/{{ site.inc.labs_cover_image }});">
-
-    <section>
-        <div class="container">
-            <h1>{{ site.inc.labs_title}}</h1>
-            {% if site.inc.labs_subtitle %}<h3>{{ site.inc.labs_subtitle }}</h3>{% endif %}
-
-        </div>
-    </section>
-</div>
-<div class="container">
-<div class="row projects">
-    {% for project in site.labs limit:12 %}
-    <div class="col-sm-6 col-md-4">
-        {% if project.thumbnail  %}
-        <a href="{{ project.url }}">
-            <img src="{{ project.thumbnail }}" alt=""></a>
+<section class="bg-light text-dark height-20 mt-4">
+    <div class="container">
+        <h1>{{ site.labs_title }}</h1>
+        {% if site.labs_subtitle %}
+        <h4>{{ site.labs_subtitle }}</h4>
         {% endif %}
-        <div class="desc">
-            <a href="{{ project.url }}">
-                <h5>{{ project.title }}</h5></a>
-            <hr class="soften">
-            <p>{{ project.short-description }}</p>
-
-        </div><!-- /desc -->
-    </div><!-- /span4 -->
-    {% endfor %}
-
+    </div>
+</section>
+<div class="container">
+    <ul class="row mb-4 mt-4 feature-list feature-list-sm">
+     {% for project in site.labs %}
+        <li class="col-12 col-md-6 col-lg-4">
+            <div class="card card-lg">
+                <a href="{{ project.url }}">
+                    <img class="card-img-top bg-secondary" src="{{ project.thumbnail }}" alt="Starting Up - A Candid Documentary">
+                </a>
+                <div class="card-body">
+                    <a href="{{ project.url }}">
+                        <h5 class="card-title mb-3">{{ project.title }}</h5>
+                        <hr>
+                    </a>
+                    <p class="card-text">{{ project.short-description }}</p>
+                </div>
+            </div>
+        </li>
+ {% endfor %}
+    </ul>
 </div>
-
-</div>
-
 

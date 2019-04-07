@@ -15,9 +15,9 @@ techUsed: [PHP, MYSQL, XML]
 
 demo:
   url:
-  title: demo
+  title: Demo
   source_url: https://github.com/lovellfelix/XML-Generator
-  source_title: SOURCE
+  source_title: Download
 
 endorsements:
 -

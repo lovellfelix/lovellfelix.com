@@ -15,9 +15,9 @@ techUsed: [TUMBLR, TWITTER BOOTSTRAP]
 
 demo:
   url:
-  title: demo
+  title: Demo
   source_url: https://github.com/lovellfelix/tumblr-twitter-bootstrap-theme
-  source_title: SOURCE
+  source_title: Download
 
 endorsements:
 -

@@ -15,9 +15,9 @@ techUsed: [PHP, MYSQL, Twitter Bootstrap]
 
 demo:
   url: http://demo.lovellfelix.com/ems
-  title: demo
+  title: Demo
   source_url: http://github.com/lovellfelix/ems
-  source_title: code
+  source_title: Download
 
 endorsements:
 -

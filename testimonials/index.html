@@ -1,55 +1,37 @@
 ---
-layout: base
+layout: page
 title: Testimonials
 ---
-
-
-<div class="labs-cover" style="background-image:url(/images/{{ site.inc.testimonials_cover_image }});">
-
-    <section>
-        <div class="container">
-            <h1>{{ site.inc.testimonials_title}}</h1>
-            {% if site.inc.testimonials_subtitle %}<h3>{{ site.inc.testimonials_subtitle }}</h3>{% endif %}
-
-        </div>
-    </section>
-</div>
-
+<section class="bg-light text-dark height-20 mt-4">
+    <div class="container">
+        <h1>{{ site.testimonials_title }}</h1>
+        {% if site.testimonials_subtitle %}
+        <h4>{{ site.testimonials_subtitle }}</h4>
+        {% endif %}
+    </div>
+</section>
 <div class="container">
-   
-
-
     <ul class="timeline">
-
-
     {% for testimonial in site.data.testimonials %}
-
-
-
      <li class="timeline-{{ testimonial.tag }}">
       <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
         <div class="timeline-panel">
          <div class="media">
             <a class="pull-left" href="{{ testimonial.url }}">
-                <img class="media-object img-circle" src="/images/testimonials/{{ testimonial.profile-img }}" alt="{{ testimonial.name }} - {{ testimonial.title }}">
+                <img class="mr-3 rounded-circle" src="/images/testimonials/{{ testimonial.profile-img }}" alt="{{ testimonial.name }} - {{ testimonial.title }}">
              </a>
             <div class="media-body">
-            <h4 class="media-heading">
+            <h4 class="mt-0">
             <a href="{{ testimonial.url }}">{{ testimonial.name }}</a></h4>
                 <small class="text-muted">{{ testimonial.title }}</small> <br />
                 <small class="text-muted">{{ testimonial.date }} - {{ testimonial.from }}</small>
             </div>
-
             </div>
             <div class="timeline-body">
                 <p>{{ testimonial.comment }}</p>
             </div>
-           
       </div>
-
-
      </li>
-
     {% endfor %}
     </ul>
 
